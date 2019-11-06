@@ -1,20 +1,21 @@
-# [concat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+# [Array.prototype.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
 
-## Description
 The `concat` method creates a new array consisting of the elements in the object on which it is called, followed in order by, for each argument, the elements of that argument (if the argument is an array) or the argument itself (if the argument is not an array). It does not recurse into nested array arguments.
 
 ## Syntax
 const _new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])_
 
-## Examples
+## Usage examples
 Concatenating two arrays
 The following code concatenates two arrays:
 
+```js
 const letters = ['a', 'b', 'c'];
 const numbers = [1, 2, 3];
 
-letters. concat(numbers);
-// result in ['a', 'b', 'c', 1, 2, 3]
+letters.concat(numbers); // -> ['a', 'b', 'c', 1, 2, 3]
+```  
+
 Concatenating three arrays
 The following code concatenates three arrays:
 
