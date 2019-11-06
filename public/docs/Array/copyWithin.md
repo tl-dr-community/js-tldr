@@ -2,7 +2,7 @@
 ## Description
 The `copyWithin` works like C and C++'s `memmove`, and is a high-performance method to shift the data of an `Array`. 
 ## Syntax
-arr.copyWithin(target[, start[, end]])
+```arr.copyWithin(target[, start[, end]])```
 ## Examples
 ``` js
 [1, 2, 3, 4, 5].copyWithin(-2);
