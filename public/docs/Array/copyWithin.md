@@ -28,7 +28,8 @@ arr.copyWithin(target[, start[, end]])
 // ES2015 Typed Arrays are subclasses of Array
 var i32a = new Int32Array([1, 2, 3, 4, 5]);
 ```
-``` js i32a.copyWithin(0, 2);
+``` js 
+i32a.copyWithin(0, 2);
 // Int32Array [3, 4, 5, 4, 5]
 ```
 ``` js
