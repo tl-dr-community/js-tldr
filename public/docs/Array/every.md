@@ -9,7 +9,7 @@ You can pass reference to use for `this` as a second argument.
 ## Syntax
 
 ```js
-array.every(callback(element, index, array):Boolean, thisArgument)
+array.every(callback(element, index, array):Boolean, thisArgument);
 ```
 
 ## Usage examples
