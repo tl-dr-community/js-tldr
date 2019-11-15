@@ -7,21 +7,15 @@ jobs:
   - uses: actions/setup-node@v1
     with:
       node-version: '10.x'
-
-  install:
+  - install:
     name: Install dependencies
     - uses: actions/checkout@v1
     - run: npm install
-
-  build:
+  - build:
     name: Build the dist
     needs: install
     run: npm run build
-
-  # TODO:
-  # test:
-
-  deploy:
+  - deploy:
     name: Deploy app to Google Cloud
     needs: build
     steps:
