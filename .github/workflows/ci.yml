@@ -1,0 +1,35 @@
+name: Deploy app to prod
+on:
+  push:
+    tags: -v1.*
+jobs:
+  - uses: actions/checkout@v1
+  - uses: actions/setup-node@v1
+    with:
+      node-version: '10.x'
+
+  install:
+    name: Install dependencies
+    - uses: actions/checkout@v1
+    - run: npm install
+
+  build:
+    name: Build the dist
+    needs: install
+    run: npm run build
+
+  # TODO:
+  # test:
+
+  deploy:
+    name: Deploy app to Google Cloud
+    needs: build
+    steps:
+      - name: Authenticate Google Cloud
+        uses: actions/gcloud/auth@master
+        env:
+          GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
+      - name: Deploy app to Google Cloud
+        uses: actions/gcloud/cli@master
+        with:
+          args: app deploy
