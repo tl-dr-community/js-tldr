@@ -1,6 +1,8 @@
 name: Deploy app to prod
 on:
   push:
+    branches:
+      - master
     tags: -v1.**
 jobs:
   install:
