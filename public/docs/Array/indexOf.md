@@ -1,6 +1,6 @@
 # Array.prototype.indexOf()
 
-The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.
+The `indexOf` method returns the first index at which a given element can be found in the array, or -1 if it is not present.
 
 ## Syntax
 ```js
@@ -38,3 +38,8 @@ function updateVegetablesCollection (veggies, veggie) {
 
 var veggies = ['potato', 'tomato', 'chillies', 'green-pepper'];
 ```
+
+---
+
+[MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+
