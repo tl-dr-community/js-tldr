@@ -12,7 +12,7 @@ export const SearchChips = ({ onChange }) => {
           key={value}
           size="sm"
           style={{ margin: '0.5rem' }}
-          onClick={() => onChange(`${value}.prototype`)}
+          onClick={() => onChange(`${value}.prototype.`)}
         >
           <ObjectExpression>{value}</ObjectExpression>.
           <Property>prototype</Property>

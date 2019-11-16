@@ -4,9 +4,9 @@ import Input from 'components/Input';
 import classes from './SearchInput.module.scss';
 import { SearchIcon } from './SearchIcon';
 
-export const SearchInput = forwardRef((props, ref) => {
+export const SearchInput = forwardRef(({ wrapperRef, ...props }, ref) => {
   return (
-    <div className={classes.container}>
+    <div ref={wrapperRef} className={classes.container}>
       <span className={classes.icon}>
         <SearchIcon />
       </span>
