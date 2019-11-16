@@ -1,21 +1,26 @@
-# TypedArray.prototype.join()
+# Array.prototype.join()
 
-The `join` method joins all elements of an array into a string. This method has the same algorithm as Array.prototype.join(). TypedArray is one of the typed array types here.
+The `join` method creates and returns a new string by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string. If the array has only one item, then that item will be returned without using the separator.
 
 ## Syntax
 ```js
-typedarray.join(separator = ',');
+arr.join([separator])
 ```
 ## Usage examples
 ```js
-var uint8 = new Uint8Array([1,2,3]);
-uint8.join(); // -> '1,2,3'
-uint8.join(' / '); // -> '1 / 2 / 3'
-uint8.join(''); // -> '123'
+var a = ['Wind', 'Water', 'Fire'];
+a.join(); // -> 'Wind,Water,Fire'
+a.join(', '); // -> 'Wind, Water, Fire'
+a.join(' + '); // -> 'Wind + Water + Fire'
+a.join(''); // -> 'WindWaterFire'
 
-if (!Uint8Array.prototype.join) {
-  Object.defineProperty(Uint8Array.prototype, 'join', {
-    value: Array.prototype.join
-  });
+function f(a, b, c) {
+  var s = Array.prototype.join.call(arguments);
+  console.log(s); // -> '1,a,true'
 }
+f(1, 'a', true); // -> expected output: "1,a,true"
 ```
+
+---
+
+[MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
