@@ -6,7 +6,6 @@ import { loadDocsData } from 'data/loadDocsData';
 import { SearchChips } from './SearchChips';
 import { SearchInput } from './SearchInput';
 import classes from './Search.module.scss';
-import { useKey } from 'react-use';
 
 export const Search = memo(() => {
   const [options, setOptions] = useState(null);
@@ -27,7 +26,20 @@ export const Search = memo(() => {
     fetchData();
   }, []);
 
-  useKey('/', focusInput);
+  /* Set "/" key press handler */
+  useEffect(() => {
+    const top = window;
+    if (!top) return;
+    const handleKeyPress = event => {
+      if (event.keyCode === keycodes('/')) {
+        focusInput();
+      }
+    };
+    top.addEventListener('keyup', handleKeyPress);
+    return () => {
+      top.removeEventListener('keyup', handleKeyPress);
+    };
+  });
 
   const searchEngine = useMemo(() => {
     if (!data) return null;
@@ -43,8 +55,8 @@ export const Search = memo(() => {
       tokenSeparator: /(\.|prototype)/g,
       keys: [
         { name: 'searchString', weight: 0.7 },
-        { name: 'name', weight: 0.3 },
-      ],
+        { name: 'name', weight: 0.3 }
+      ]
     });
   }, [data]);
 
