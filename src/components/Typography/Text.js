@@ -1,14 +1,15 @@
-import React from "react";
-import cn from "classnames";
+import React from 'react';
+import cn from 'classnames';
 
-import classes from "./Typography.module.scss";
+import classes from './Typography.module.scss';
 
 export const Text = ({
-  component = "span",
+  component = 'span',
   color,
   className,
   bold,
   children,
+  center,
   ...textProps
 }) => {
   const TextComponent = component;
@@ -18,6 +19,7 @@ export const Text = ({
       className={cn(className, {
         [classes[`color-${color}`]]: color,
         [classes.bold]: bold,
+        [classes.center]: center,
       })}
       {...textProps}
     >

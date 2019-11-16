@@ -6,6 +6,7 @@
  Website: https://krakendev.io
  Twitter Handle: https://twitter.com/allonsykraken)
 */
+@import '../../colors';
 
 $base03: #002b36;
 $base02: #073642;
@@ -24,10 +25,23 @@ $blue: #66d9ef;
 $cyan: #94f2e7;
 $green: #2ddca5;
 
+code {
+  font-size: 1.2em;
+}
+
+pre,
+code {
+  background-color: $bg-light;
+}
+
+pre {
+  padding: 1rem;
+  margin-bottom: 1.5rem
+}
+
 code[class*='language-'],
 pre[class*='language-'] {
-  color: $base00; /* base00 */
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  color: $base00;
   font-size: 1em;
   text-align: left;
   white-space: pre;

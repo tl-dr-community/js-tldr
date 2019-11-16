@@ -3,6 +3,7 @@ import { BoxOverlay } from 'components/BoxOverlay/BoxOverlay';
 import { Title } from 'components/Typography/Title';
 import { P } from 'components/Typography/P';
 import { Bracket } from 'components/Typography';
+import { OutboundLink } from 'react-ga';
 
 export const About = props => {
   return (
@@ -16,23 +17,25 @@ export const About = props => {
       <P>
         We can all agree that developers often forget how to use basic methods
         of language build-in objects. It's okay to google how
-        Array.prototype.slice() works over and over again; we do that too! We
-        believe that developers don't have to remember all those basic details.
+        <strong>Array.prototype.slice()</strong> works over and over again; we
+        do that too! We believe that developers don't have to remember all those
+        basic details.
       </P>
 
       <P>
         We're inspired by the MDN project on how they collect and introduce
         specifications in a human-readable manner. We do use their content as a
-        base for our documentation under CC-BY-SA 2.5 license.
+        base for our documentation under <strong>CC-BY-SA 2.5 license</strong>.
         <br />
         See more details here:{' '}
-        <a
+        <OutboundLink
           href="https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses"
           rel="noreferrer noopener"
           target="_blank"
+          eventLabel="MDN license"
         >
           https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses
-        </a>
+        </OutboundLink>
       </P>
 
       <P>
@@ -54,13 +57,14 @@ export const About = props => {
           <Bracket>JS</Bracket> tl;dr
         </strong>{' '}
         tool is free and AD-less forever. It's also an{' '}
-        <a
-          href="https://github.com/RusinovAnton/js-tldr"
+        <OutboundLink
+          href={process.env.REACT_APP_GITHUB_REPO_LINK}
           rel="noreferrer noopener"
           target="_blank"
+          eventLabel="Github Repo"
         >
           open-source
-        </a>{' '}
+        </OutboundLink>{' '}
         tool. You can give it back to the community by contributing to docs, web
         app or become a patrons so that you cover all our time and material
         expenses.

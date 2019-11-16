@@ -35,6 +35,11 @@ p {
 a {
   color: $method;
 
+  outline: none;
+
+  &:focus-visible {
+    font-weight: bold;
+  }
   &:visited {
     color: $method;
   }

@@ -12,6 +12,7 @@ export const CloseButton = ({
   const CloseButtonComponent = component;
   return (
     <CloseButtonComponent
+      title="Close this window (Esc)"
       className={cn(className, classes.button, {})}
       {...props}
     ></CloseButtonComponent>

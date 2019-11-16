@@ -10,3 +10,15 @@
     margin: 0;
   }
 }
+
+.githubLink {
+  position: absolute;
+  top: 1.8rem;
+  right: 1.8rem;
+
+  img {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+  }
+}

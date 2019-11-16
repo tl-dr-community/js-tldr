@@ -1,4 +1,4 @@
-@import "../../colors";
+@import '../../colors';
 
 .color-bracket {
   color: $bracket;
@@ -26,4 +26,12 @@
 
 .color-object {
   color: $object;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
 }
