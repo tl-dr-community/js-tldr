@@ -30,3 +30,6 @@ arr.includes('a', -2); // -> false
   console.log([].includes.call(arguments, 'd')); // -> false
 })('a','b','c');
 ```
+---
+
+[MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
