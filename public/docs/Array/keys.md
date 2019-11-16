@@ -17,3 +17,7 @@ var denseKeys = [...arr.keys()];
 console.log(sparseKeys); // -> ['0', '2']
 console.log(denseKeys); // -> [0, 1, 2]
 ```
+
+---
+
+[MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/keys)
