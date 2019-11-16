@@ -40,3 +40,7 @@ Array.isArray(arr); // -> true
 // Considered harmful, because doesn't work through iframes
 arr instanceof Array; // -> false
 ```
+---
+
+[MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
+
