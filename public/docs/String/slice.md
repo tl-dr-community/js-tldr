@@ -1,25 +1,21 @@
 # String.prototype.slice()
 
-The `slice` method extracts a section of a string and returns it as a new string, without modifying the original string.
+The `slice` method extracts a `section` of a `string`, using `begin` and `end` indexes.
 
 ## Syntax
 
 ```js
-str.slice(beginIndex, endIndex)
+const section = string.slice(beginIndex, endIndex);
 ```
 
 ## Usage examples
 
 ```js
-ar str1 = 'The morning is upon us.', // -> the length of str1 is 23.
-    str2 = str1.slice(1, 8),
-    str3 = str1.slice(4, -2),
-    str4 = str1.slice(12),
-    str5 = str1.slice(30);
-console.log(str2); // -> OUTPUT: he morn
-console.log(str3); // -> OUTPUT: morning is upon u
-console.log(str4); // -> OUTPUT: is upon us.
-console.log(str5); // -> OUTPUT: ""
+const string = 'The morning is upon us.';
+string.slice(1, 8); // -> "he morn"
+string.slice(4, -2); // -> "morning is upon u"
+string.slice(12); // -> "is upon us."
+string.slice(30); // -> ""
 ```
 
 ---

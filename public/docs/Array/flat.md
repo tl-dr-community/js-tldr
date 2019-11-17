@@ -1,6 +1,6 @@
 # Array.prototype.flat()
 
-The `flat()` method creates a **new array** with all sub-array elements **concatenated** into it recursively up to the specified depth.
+The `flat` method creates a **new array** with all sub-array elements **concatenated** into it recursively up to the specified depth.
 
 > NOTE: If you want to flatten all sub-arrays and don't want to count necessary depth - use 'Infinity' as parameter
 > NOTE: The flat method removes empty slots in arrays.

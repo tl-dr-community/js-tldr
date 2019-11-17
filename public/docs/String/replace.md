@@ -1,6 +1,6 @@
 # String.prototype.replace()
 
-The `replace` method returns a _new string_ with some or all matches of a _pattern_ replaced by a _replacement_. The _pattern_ can be a `string` or a `RegExp`, and the replacement can be a `string` or a `function` to be called for each match.
+The `replace` method returns a `new string` with some or all matches of a `pattern` replaced by a `replacement`. The `pattern` can be a `string` or a `RegExp`, and the replacement can be a `string` or a `function` to be called for each match.
 If pattern is a `string`, **only the first** occurrence will be replaced.
 
 ## Syntax

@@ -1,20 +1,20 @@
 # String.prototype.toLowerCase()
 
-The `toLowerCase` method returns the calling string value converted to lower case.
+The `toLowerCase` method returns the `string` converted to lower case.
 
 ## Syntax
 
 ```js
-str.toLowerCase()
+const lowerString = string.toLowerCase();
 ```
 
 ## Usage examples
 
 ```js
-console.log('ALPHABET'.toLowerCase()); // -> 'alphabet'
+'ALPHABET'.toLowerCase(); // -> 'alphabet'
+'Alphabet'.toLowerCase(); // -> 'alphabet'
 ```
 
 ---
 
 [MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
-

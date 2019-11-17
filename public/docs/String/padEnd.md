@@ -1,8 +1,8 @@
 # String.prototype.padEnd()
 
-**The `padEnd` method pads the current _string_ with a given _padding string_** so that the resulting _padded string_ reaches a given _target length_.
+**The `padEnd` method pads the current `string` with a given `padding string`** so that the resulting `padded string` reaches a given `target length`.
 
-The padding is applied from the end of the current string. The _padding string_ is repeated, if needed.
+The padding is applied from the end of the current string. The `padding string` is repeated, if needed.
 
 ## Syntax
 

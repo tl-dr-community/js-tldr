@@ -1,6 +1,6 @@
 # String.prototype.localeCompare()
 
-The `localeCompare` method returns a number indicating whether a _reference string_ comes before or after or is the same as the _compare string_ in sort order.
+The `localeCompare` method returns a number indicating whether a `reference string` comes before or after or is the same as the `compare string` in sort order.
 
 ## Syntax
 

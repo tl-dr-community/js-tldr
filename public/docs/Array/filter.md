@@ -1,13 +1,15 @@
 # Array.prototype.filter()
 
-The `filter()` method creates a new array with all elements that pass the test implemented by the provided function.
+The `filter` method creates a new array with all elements that pass the test implemented by the provided function.
+
+You may pass a reference for `this` to be used within test function.
 
 ## Syntax
 
 ```js
 const modifiedArray = originalArray.filter(
   (callback(element, index, array): Boolean),
-  thisArgument,
+  thisParameter,
 );
 ```
 
@@ -24,4 +26,4 @@ words.filter(word => word.length > 3);
 
 ---
 
-[MDN reference](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+[MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)

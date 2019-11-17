@@ -1,6 +1,6 @@
 # String.fromCodePoint()
 
-The static `fromCodePoint` method returns a _string_ created by using the specified sequence of code points (_numN_).
+The static `fromCodePoint` method returns a `string` created by using the specified sequence of code points (`numN`).
 
 ## Syntax
 

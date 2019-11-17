@@ -1,6 +1,6 @@
 # String.prototype.lastIndexOf()
 
-**The `lastIndexOf` method returns the _index_ of the last occurrence of the specified _searchValue_ within a _string_**, searching backwards from _fromIndex_. It returns **-1** if the _searchValue_ is not found.
+**The `lastIndexOf` method returns the `index` of the last occurrence of the specified `searchValue` within a `string`**, searching backwards from `fromIndex`. It returns **-1** if the `searchValue` is not found.
 
 ## Syntax
 

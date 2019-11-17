@@ -1,6 +1,6 @@
 # String.prototype.concat()
 
-The `concat` method concatenates the _stringN_ arguments to a given _string_ and returns a _new string_.
+The `concat` method concatenates the `stringN` arguments to a given `string` and returns a `new string`.
 
 ## Syntax
 
