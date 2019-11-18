@@ -1,6 +1,6 @@
 # Array.prototype.unshift()
 
-The `unshift` method inserts the given values to the beginning of an array-like object.
+The `unshift` method inserts the given elements to the _beginning_ of an `array` or array-like object.
 Result of `unshift` call is length of modified array.
 
 ## Syntax
@@ -12,16 +12,11 @@ const arrayLength = array.unshift(value1, value2, ..., valueN);
 ## Usage examples
 
 ```js
-let arr = [1, 2];
-
-arr.unshift(0); // -> 3
-arr; // -> [0, 1, 2]
-
-arr.unshift(-2, -1); // 5
-arr; // -> [-2, -1, 0, 1, 2]
-
-arr.unshift([-4, -3]); // -> 6
-arr; // -> [[-4, -3], -2, -1, 0, 1, 2]
+const array = [1, 2];
+array.unshift(0); // -> 3
+array; // -> [0, 1, 2]
+array.unshift(-2, -1); // 5
+array; // -> [-2, -1, 0, 1, 2]
 ```
 
 ---

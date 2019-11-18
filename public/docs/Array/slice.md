@@ -1,11 +1,12 @@
 # Array.prototype.slice()
 
-**creates a new array which is a shallow clone of a portion of an original array** selected from `beginIndex` to `endIndex`.
+The `slice` method returns a shallow copy of a portion of an `array` into a new array selected from `begin` to `end` indexes (end not included).
+The original array will not be modified.
 
 ## Syntax
 
 ```js
-const newArr = originalArr.slice(beginIndex, endIndex);
+const newArray = originalArray.slice(beginIndex, endIndex);
 ```
 
 ## Usage examples

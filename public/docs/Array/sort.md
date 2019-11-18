@@ -1,22 +1,25 @@
 # Array.prototype.sort()
 
-The `sort` method sorts the elements of an array *in place* and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
+The `sort` method sorts the elements of an `array` _in place_ and returns the `sorted array`.
 
-The time and space complexity of the sort cannot be guaranteed as it depends on the implementation.
+The default sort order is _ascending_, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values. You may pass own implementation `compare function`.
 
 ## Syntax
 
 ```js
-arr.sort(compareFunction)
+array = array.sort(compareFunction);
 ```
 
 ## Usage examples
 
 ```js
-var items = ['réservé', 'premier', 'cliché', 'communiqué', 'café', 'adieu'];
-items.sort(function (a, b) {
-  return a.localeCompare(b);
-}); // -> items is ['adieu', 'café', 'cliché', 'communiqué', 'premier', 'réservé']
+['C', 'B', 'D', 'A'].sort(); // -> ['A', 'B', 'C', 'D']
+
+['réservé', 'premier', 'cliché', 'communiqué', 'café', 'adieu'].sort((a, b) =>
+  a.localeCompare(b),
+); // -> ['adieu', 'café', 'cliché', 'communiqué', 'premier', 'réservé']
+
+[3, 5, 2, 1, 4].sort((a, b) => a - b); // -> [1, 2, 3, 4, 5]
 ```
 
 ---
