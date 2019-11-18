@@ -11,7 +11,7 @@ const string = array.toString();
 ## Usage examples
 
 ```js
-['Am', 'I', 'Array', 'Or', 'String', '?'].toString() // -> "Am,I,Array,Or,String,?" 
+['Am', 'I', 'Array', 'Or', 'String', '?'].toString() // -> "Am,I,Array,Or,String,?"
 ```
 
 ---
