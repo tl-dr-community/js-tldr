@@ -1,30 +1,24 @@
 # Array.prototype.flatMap()
 
-The `flatMap()` method first maps each element using a mapping function, then flattens the result into a new array.
+The `flatMap` method first maps each element using a `mapping function`, then flattens the result into a new array.
+You may pass a reference for `this` to be used within test function.
 
 ## Syntax
 
 ```js
 const newArray = originalArray.flatMap(
-  (callback(currentValue, index, array): Boolean),
-  thisArgument,
+  (currentValue, index, array) => Boolean,
+  thisParameter,
 );
 ```
 
 ## Usage examples
 
 ```js
-//.map():
-[1, 2, 3, 4].map(x => [x * 2]);
-// -> [[2], [4], [6], [8]]
-
-//.flatMap():
-[1, 2, 3, 4].flatMap(x => [x * 2]);
-// -> [2, 4, 6, 8]
-
-// Note, that only one level is flattened:
-[1, 2, 3, 4].flatMap(x => [[x * 2]]);
-// -> [[2], [4], [6], [8]]
+const array = [1, 2, 3, 4];
+array.map(x => [x * 2]); // -> [[2], [4], [6], [8]]
+array.flatMap(x => [x * 2]); // -> [2, 4, 6, 8]
+array.flatMap(x => [[x * 2]]); // -> [[2], [4], [6], [8]]
 ```
 
 ---

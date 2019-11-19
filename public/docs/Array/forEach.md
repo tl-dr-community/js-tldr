@@ -1,20 +1,20 @@
 # Array.prototype.forEach()
 
-The `forEach()` method executes a provided function once for each array element.
+The `forEach` method executes a provided `function` once for each `array` element.
 
 ## Syntax
 
 ```js
-arr.forEach(callback(currentValue index,  array), thisArg);
+array.forEach((currentValue index,  array) => {}, thisArg);
 ```
 
 ## Usage examples
 
 ```js
-const array1 = [1, 2, 3];
+const array = [1, 2, 3];
 
-array1.forEach(function(element, index) {
-  array1[index] = element + 1;
+array.forEach((element, index) => {
+  array[index] = element + 1;
 });
 ```
 

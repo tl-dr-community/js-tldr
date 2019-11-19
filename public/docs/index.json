@@ -106,7 +106,9 @@
           "toUpperCase",
           "trim",
           "trimRight",
+          "trimEnd",
           "trimLeft",
+          "trimStart",
           "valueOf"
         ],
         "deprecated": [

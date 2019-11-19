@@ -1,6 +1,6 @@
 # Array.prototype.concat()
 
-**The `concat` method creates a **new** array consisting of the elements in the object on which it is called**, followed in order by, for each argument, the elements of that argument (if the argument is an array) or the argument itself (if the argument is not an array).
+**The `concat` method creates a _new_ `array` consisting of the elements in the object on which it is called**, followed in order by, for each argument, the elements of that argument (if the argument is an array) or the argument itself (if the argument is not an array).
 
 It does not recurse into nested array arguments.
 

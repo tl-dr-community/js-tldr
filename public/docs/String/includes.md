@@ -1,6 +1,6 @@
 # String.prototype.includes()
 
-The `includes` method determines whether _searchString_ may be found within a _string_, returning a _boolean_ value as a _result_.
+The `includes` method determines whether `searchString` may be found within a `string`, returning a `boolean` value as a `result`.
 
 ## Syntax
 

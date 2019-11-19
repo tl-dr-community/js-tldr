@@ -1,22 +1,23 @@
 # Array.prototype.some()
 
-The `some` method tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value. 
+The `some` method tests whether _at least one_ `element` in the `array` passes the `test function`.
+It returns a `Boolean` value.
+You may pass a reference for `this` to be used within test function.
 
 ## Syntax
 
 ```js
-arr.some(callback(element, index, array), thisArg)
+const result = array.some((element, index, array) => Boolean, thisParameter);
 ```
 
 ## Usage examples
 
 ```js
-function isBiggerThan10(element, index, array) {
-  return element > 10;
-}
+const isBiggerThan10 => (element) => element > 10;
 
 [2, 5, 8, 1, 4].some(isBiggerThan10); // -> false
 [12, 5, 8, 1, 4].some(isBiggerThan10); // -> true
+[].some(isBiggerThan10); // -> false
 ```
 
 ---

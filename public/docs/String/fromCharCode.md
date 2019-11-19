@@ -1,6 +1,6 @@
 # String.fromCharCode()
 
-The static `fromCharCode` method returns a _string_ created from the specified sequence of UTF-16 code units (_numN_).
+The static `fromCharCode` method returns a `string` created from the specified sequence of UTF-16 code units (`numN`).
 
 ## Syntax
 

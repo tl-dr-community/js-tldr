@@ -1,31 +1,31 @@
 # Array.prototype.concat()
 
-The `values` method returns a new Array Iterator object that contains the values for each index in the array.
+The `values` method returns a new `Array Iterator` that contains the elements for each `index` in the `array`.
 
 ## Syntax
 
 ```js
-arr.values()
+const iterator = array.values();
 ```
 
 ## Usage examples
 
 ```js
-var arr = ['a', 'b', 'c', 'd', 'e'];
-var iterator = arr.values();
+const array = ['a', 'b', 'c', 'd', 'e'];
+const iterator1 = array.values();
 
-for (let letter of iterator) {
+for (let letter of iterator1) {
   console.log(letter);
-} // -> "a" "b" "c" "d"
+} // -> "a" "b" "c" "d" "e"
 
-Array.prototype.values === Array.prototype[Symbol.iterator] // -> true
+iterator1.next().value; // -> undefined
 
-var arr = ['a', 'b', 'c', 'd', 'e']; 
-var iterator = arr.values();
-console.log(iterator); // -> Array Iterator {  }
-iterator.next().value; // -> "a"
-arr[1]='n';                 
-iterator.next().value; // -> "n"
+array; // -> ['a', 'b', 'c', 'd', 'e']
+
+const iterator2 = array.values();
+iterator2.next().value; // -> "a"
+array[1] = 'n';
+iterator2.next().value; // -> "n"
 ```
 
 ---

@@ -1,27 +1,22 @@
 # String.prototype.split()
 
-The `split` method turns a String into an array of strings, by separating the string at each instance of a specified separator string.
+The `split` method turns a `string` into an `array of strings`, by separating the `string` at each instance of a specified `separator string`. You can `limit` the number of splits using additional parameter.
 
 ## Syntax
 
 ```js
-str.split(separator, limit)
+const arrayOfStrings = string.split(separator, limit);
 ```
 
 ## Usage examples
 
 ```js
-const myString = '';
-const splits = myString.split();
-
-console.log(splits); 
-
-// ↪ [""]
-
-const myString = 'Hello World. How are you doing?';
-const splits = myString.split(' ', 3);
-
-console.log(splits); // -> ["Hello", "World.", "How"]
+''.split(); // -> ['']
+'Hello World!'.split(); // -> ['Hello World!']
+'Hello World!'.split(''); // -> ["H", "e", "l", "l", "o", " ", "W", "o", "r", "l", "d", "!"]
+'Hello World!'.split(' '); // -> ["Hello", "World!"]
+'Hello World!'.split('e'); // ->  ["H", "llo World!"]
+'Hello World. How are you doing?'.split(' ', 3); // -> ["Hello", "World.", "How"]
 ```
 
 ---

@@ -1,6 +1,6 @@
 # String.prototype.charCodeAt()
 
-The `charCodeAt` method returns an _integer_ between **0** and **65535** representing the UTF-16 code unit at the given _index_ of a _string_.
+The `charCodeAt` method returns an `integer` between **0** and **65535** representing the UTF-16 code unit at the given `index` of a `string`.
 
 ## Syntax
 
