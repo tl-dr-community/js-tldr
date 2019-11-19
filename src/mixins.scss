@@ -1,6 +1,6 @@
 @import "./colors";
 
-$chip-shadow: 0 0 1rem 0 darken($bg, 2%);
+$chip-shadow: 0 0 0.4rem 0 darken($bg, 2%);
 $chip-shadow-outline: $chip-shadow, $focus-outline;
 
 @mixin chip-shape() {
