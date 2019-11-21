@@ -1,6 +1,6 @@
 # Array.prototype.concat()
 
-The `concat` method creates a `new array` consisting of the elements of `original array` followed in order by for each element of array argument or arguments itself.
+The `concat` method creates a `new array` consisting of the elements of the `original array` followed in order by for each element of array argument or arguments itself.
 
 > NOTE: It does not recurse into nested array arguments.
 

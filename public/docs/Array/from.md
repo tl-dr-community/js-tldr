@@ -1,11 +1,11 @@
 # Array.from()
 
-The `from` method creates a _new_, shallow-copied Array instance from an array-like or iterable object.
+The `from` method creates a _new_, _shallow-copied_ `array` from an array-like or iterable object.
 
 ## Syntax
 
 ```js
-Array.from(arrayLike, mapFn, thisParameter);
+Array.from(arrayLike, mapFn, thisArgument);
 ```
 
 ## Usage example

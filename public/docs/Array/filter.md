@@ -9,7 +9,7 @@ You may pass a reference for `this` to be used within test function.
 ```js
 const modifiedArray = originalArray.filter(
   (callback(element, index, array): Boolean),
-  thisParameter,
+  thisArgument,
 );
 ```
 

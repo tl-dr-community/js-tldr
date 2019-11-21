@@ -5,7 +5,7 @@ The `reduce` method executes a `reducer function` on each `element` of the `arra
 ## Syntax
 
 ```js
-const resultAccumulator = array.reduce(
+const value = array.reduce(
   (accumulator, element, index, array) => updatedAccumulator,
   initialAccumulator,
 );

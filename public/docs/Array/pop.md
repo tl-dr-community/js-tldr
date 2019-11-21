@@ -1,7 +1,8 @@
 # Array.prototype.pop()
 
 The `pop` method _removes_ the last element from an `array` and returns that `element`.
-This method changes the called array.
+
+> NOTE: This method changes original `array`.
 
 ## Syntax
 

@@ -9,7 +9,7 @@ You may pass a reference for `this` to be used within test function.
 ## Syntax
 
 ```js
-const result = array.every((element, index, array) => Boolean, thisParameter);
+const result = array.every((element, index, array) => Boolean, thisArgument);
 ```
 
 ## Usage examples

@@ -1,12 +1,12 @@
 # Array.prototype.find()
 
-The `find` method **returns the `value`** of a first element in `array` that satisfies testing `function`.
+The `find` method returns the `value` of a first element in `array` that satisfies testing `function`.
 You may pass a reference for `this` to be used within test function.
 
 ## Syntax
 
 ```js
-const result = array.find((element, index, array) => Boolean, thisParameter);
+const value = array.find((element, index, array) => Boolean, thisArgument);
 ```
 
 ## Usage examples

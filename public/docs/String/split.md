@@ -1,6 +1,6 @@
 # String.prototype.split()
 
-The `split` method turns a `string` into an `array of strings`, by separating the `string` at each instance of a specified `separator string`. You can `limit` the number of splits using additional parameter.
+The `split` method turns a `string` into an `array of strings`, by separating the `string` at each instance of a specified `separator string`. You can `limit` the number of splits using additional argument.
 
 ## Syntax
 

@@ -1,6 +1,6 @@
 # Array.prototype.fill()
 
-**The `fill` method fills all the elements of an `array` with a static `value`**.
+The `fill` method fills all the elements of an `array` with a static `value`.
 This method modifies original array.
 
 ## Syntax

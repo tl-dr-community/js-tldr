@@ -1,6 +1,6 @@
 # Array.prototype.keys()
 
-The `keys` method returns a new `Array Iterator` that contains the keys for each index in the `array`.
+The `keys` method returns a new `iterator` that contains the keys for each index in the `array`.
 
 ## Syntax
 

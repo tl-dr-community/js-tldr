@@ -1,6 +1,6 @@
 # Array.prototype.flatMap()
 
-The `flatMap` method first maps each element using a `mapping function`, then flattens the result into a new array.
+The `flatMap` method first maps each element using a `mapping function`, then flattens the result into a _new_ `array`.
 You may pass a reference for `this` to be used within test function.
 
 ## Syntax
@@ -8,7 +8,7 @@ You may pass a reference for `this` to be used within test function.
 ```js
 const newArray = originalArray.flatMap(
   (currentValue, index, array) => Boolean,
-  thisParameter,
+  thisArgument,
 );
 ```
 
