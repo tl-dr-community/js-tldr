@@ -16,6 +16,7 @@ export const SearchInput = forwardRef(({ wrapperRef, ...props }, ref) => {
         className={classes.input}
         placeholder="Look for some tl;dr"
         size="xl"
+        aria-label="Search"
         {...props}
       />
       <span className={classes.shortKey}>/</span>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Chip from 'components/Chip';
+import Button from 'components/Button';
 import { ObjectExpression } from 'components/Typography';
 
 const CHIP_VALUES = ['Array', 'Number', 'String'];
@@ -8,14 +8,14 @@ export const SearchChips = ({ onChange }) => {
   return (
     <div>
       {CHIP_VALUES.map(value => (
-        <Chip
+        <Button
           key={value}
-          size="sm"
+          size="xs"
           style={{ margin: '0.5rem' }}
           onClick={() => onChange(`${value}.`)}
         >
           <ObjectExpression>{value}</ObjectExpression>
-        </Chip>
+        </Button>
       ))}
     </div>
   );

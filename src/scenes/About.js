@@ -16,16 +16,26 @@ export const About = props => {
       </Title>
       <P>
         We can all agree that developers often forget how to use basic methods
-        of language build-in objects. It's okay to google how
+        of language build-in objects. It's okay to google how{' '}
         <strong>Array.prototype.slice()</strong> works over and over again; we
         do that too! We believe that developers don't have to remember all those
-        basic details.
+        basic language feature.
       </P>
 
       <P>
-        We're inspired by the MDN project on how they collect and introduce
-        specifications in a human-readable manner. We do use their content as a
-        base for our documentation under <strong>CC-BY-SA 2.5 license</strong>.
+        We're inspired by such projects as the{' '}
+        <OutboundLink
+          href="https://tldr.sh/"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          tldr
+        </OutboundLink>{' '}
+        and the <b>MDN</b> on how they collect and introduce information in a
+        human-readable manner.
+        <br />
+        We do use MDN documentation as a base for our texts under{' '}
+        <strong>CC-BY-SA 2.5 license</strong>.
         <br />
         See more details here:{' '}
         <OutboundLink
@@ -65,7 +75,7 @@ export const About = props => {
         >
           open-source
         </OutboundLink>{' '}
-        tool. You can give it back to the community by contributing to docs, web
+        ! You can give it back to the community by contributing to docs, web
         app or become a patrons so that you cover all our time and material
         expenses.
       </P>

@@ -1,8 +1,8 @@
-@import "../../colors";
-@import "../../mixins";
+@import '../../colors';
+@import '../../mixins';
 
-.chip {
-  @include chip-shape;
+.button {
+  @include button-shape;
   transition: background-color 0.2s;
 
   &:empty {

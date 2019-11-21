@@ -2,7 +2,7 @@
 @import "../../mixins";
 
 .input {
-  @include chip-shape;
+  @include button-shape;
   caret-color: $cursor;
   margin-bottom: 1em;
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga';
-import Button from 'components/Chip';
+import Button from 'components/Button';
 
 import classes from './Feedback.module.scss';
 import { Col, Grid } from 'components/Grid';
