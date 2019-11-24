@@ -1,10 +1,10 @@
 # Number.prototype.toLocaleString()
 
-The `toLocaleString()` method returns a string with a language-sensitive representation of this number.
+The **`toLocaleString`** method returns a string with a language-sensitive representation of this number.
 
-## Syntax 
+## Syntax
 
-```js 
+```js
 number.toLocaleString(locales, options)
 ```
 
@@ -22,7 +22,7 @@ console.log(number.toLocaleString('ar-EG'));
 
 // India uses thousands/lakh/crore separators
 console.log(number.toLocaleString('en-IN'));
-// -> 1,23,456.789        
+// -> 1,23,456.789
 
 // request a currency format
 console.log(number.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' }));

@@ -1,23 +1,24 @@
 # Number.isFinite()
 
-The `Number.isFinite()` method determines whether the passed value is a finite number.
+The **`isFinite`** method determines whether the passed `value` is a **finite number**.
 
->NOTE: returns boolean
+> NOTE: returns boolean.
 
 ## Syntax
 
 ```js
-Number.isFinite(value)
+const result = Number.isFinite(value);
 ```
 
 ## Usage examples
+
 ```js
-Number.isFinite(5)
+Number.isFinite(5);
 // -> true
-Number.isFinite(1/0)
+Number.isFinite(1 / 0);
 // -> false
-Number.isFinite(10/5)
-// -> true  
+Number.isFinite(10 / 5);
+// -> true
 ```
 
 ---
