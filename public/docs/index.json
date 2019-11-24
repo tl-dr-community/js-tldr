@@ -84,6 +84,7 @@
           "lastIndexOf",
           "localeCompare",
           "match",
+          "matchAll",
           "normalize",
           "padEnd",
           "padStart",
