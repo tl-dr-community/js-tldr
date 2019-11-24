@@ -3,7 +3,7 @@ import React from 'react';
 import Button from 'components/Button';
 import { ObjectExpression } from 'components/Typography';
 
-const CHIP_VALUES = ['Array', 'Number', 'String'];
+const CHIP_VALUES = ['Array', 'Function', 'Number', 'RegExp', 'String'];
 export const SearchChips = ({ onChange }) => {
   return (
     <div>

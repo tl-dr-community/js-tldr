@@ -1,19 +1,25 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 
 import { Dot } from 'components/Dot';
 import { Row, Col } from 'components/Grid';
 import { Bracket, Comment } from 'components/Typography';
 
 import classes from './Header.module.scss';
-import { ABOUT } from './routes';
+import { ABOUT, HOME } from './routes';
 import { OutboundLink } from 'react-ga';
 
 export const Header = props => {
+  const history = useHistory();
+  const handleLogoClick = () => history.push(HOME);
   return (
     <Row component="header" alignCenter className={classes.header}>
       <Col>
-        <h1>
+        <h1
+          style={{ cursor: 'pointer' }}
+          onClick={handleLogoClick}
+          role="link"
+        >
           <Bracket>JS</Bracket> tl;dr
         </h1>
       </Col>
@@ -31,7 +37,6 @@ export const Header = props => {
         <Comment>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-github"
             width="24"
             height="28"
             viewBox="0 0 24 28"
