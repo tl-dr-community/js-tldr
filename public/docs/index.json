@@ -108,6 +108,82 @@
           "valueOf"
         ]
       }
+    },
+    {
+      "name": "String",
+      "type": "object",
+      "description": "",
+      "path": "/docs/String",
+      "methods": {
+        "static": ["fromCharCode", "fromCodePoint", "raw"],
+        "prototype": [
+          "charAt",
+          "charCodeAt",
+          "codePointAt",
+          "concat",
+          "endsWith",
+          "includes",
+          "indexOf",
+          "lastIndexOf",
+          "localeCompare",
+          "match",
+          "normalize",
+          "padEnd",
+          "padStart",
+          "repeat",
+          "replace",
+          "search",
+          "slice",
+          "split",
+          "startsWith",
+          "substr",
+          "substring",
+          "toLocaleLowerCase",
+          "toLocaleUpperCase",
+          "toLowerCase",
+          "toString",
+          "toUpperCase",
+          "trim",
+          "trimEnd",
+          "trimLeft",
+          "trimRight",
+          "trimStart",
+          "valueOf"
+        ]
+      }
+    },
+    {
+      "name": "Function",
+      "type": "object",
+      "description": "",
+      "path": "/docs/Function",
+      "properties": {
+        "static": ["length", "name"]
+      },
+      "methods": {
+        "prototype": ["apply", "bind", "call", "toString"]
+      }
+    },
+    {
+      "name": "RegExp",
+      "type": "object",
+      "description": "",
+      "path": "/docs/RegExp",
+      "properties": {
+        "prototype": [
+          "dotAll",
+          "flags",
+          "global",
+          "ignoreCase",
+          "multiline",
+          "source",
+          "sticky",
+          "unicode"
+        ]
+      },
+      "methods": {
+        "prototype": ["exec", "test", "toString"]
+      }
     }
   ]
 }

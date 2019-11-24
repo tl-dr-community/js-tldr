@@ -21,15 +21,31 @@ export const normalizeDocsIndex = index => {
     const {
       name: domainName,
       path: domainPath,
-      methods: { prototype, static: staticMethods },
+      properties: { prototype: prototypeProperties, static: staticProperties } = {},
+      methods: { prototype: prototypeMethods, static: staticMethods } = {},
     } = domain;
 
-    staticMethods.forEach(methodName =>
-      addToIndex(methodName, null, domainName, domainPath),
-    );
-    prototype.forEach(methodName =>
-      addToIndex(methodName, 'prototype', domainName, domainPath),
-    );
+    const addPrototypeName = methodName =>
+      addToIndex(methodName, 'prototype', domainName, domainPath);
+
+    const addStaticName = methodName =>
+      addToIndex(methodName, null, domainName, domainPath);
+
+    if (staticMethods && staticMethods.length) {
+      staticMethods.forEach(addStaticName);
+    }
+
+    if (prototypeMethods && prototypeMethods.length) {
+      prototypeMethods.forEach(addPrototypeName);
+    }
+
+    if (staticProperties && staticProperties.length) {
+      staticProperties.forEach(addStaticName);
+    }
+
+    if (prototypeProperties && prototypeProperties.length) {
+      prototypeProperties.forEach(addPrototypeName);
+    }
   });
 
   return normalizedIndex;
