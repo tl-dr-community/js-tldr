@@ -1,6 +1,6 @@
 # String.prototype.charAt()
 
-The `charAt` method returns a new string consisting of the single UTF-16 code `character` located at the specified offset into the `string` specified by `index`.
+The **`charAt`** method returns a new string consisting of the single UTF-16 code `character` located at the specified offset into the `string` specified by `index`.
 
 ## Syntax
 

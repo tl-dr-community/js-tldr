@@ -1,6 +1,6 @@
 # Array.prototype.reduce()
 
-The `reduce` method executes a `reducer function` on each `element` of the `array`, resulting in a single output `value`.
+The **`reduce`** method executes a `reducer function` on each `element` of the `array`, resulting in a single output `value`.
 
 ## Syntax
 

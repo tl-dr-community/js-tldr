@@ -1,6 +1,6 @@
 # Array.prototype.entries()
 
-The `entries` method returns a _new_ `Array Iterator` object that contains the `key/value` pairs for each index in the `array`.
+The **`entries`** method returns a _new_ `iterator` object that contains the `key/value` pairs for each index in the `array`.
 
 ## Syntax
 

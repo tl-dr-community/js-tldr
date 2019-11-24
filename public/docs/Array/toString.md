@@ -1,6 +1,6 @@
 # Array.prototype.toString()
 
-The `toString` method returns a `string` representing the specified `array` and its elements.
+The **`toString`** method returns a `string` representing the specified `array` and its elements.
 
 ## Syntax
 

@@ -1,6 +1,6 @@
 # String.prototype.valueOf()
 
-The `valueOf` method returns the primitive value of a String object.
+The **`valueOf`** method returns the primitive value of a String object.
 
 ## Syntax
 

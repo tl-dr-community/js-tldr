@@ -1,13 +1,13 @@
 # Array.prototype.push()
 
-The `push` method adds one or more elements to the end of an `array` and returns the new `length` of the `array`.
+The **`push`** method adds one or more elements to the end of an `array` and returns the new `length` of the `array`.
 
 > NOTE: This method changes original `array`.
 
 ## Syntax
 
 ```js
-const updatedLength = array.push(element1, element2, ..., elementN);
+const updatedLength = array.push(element1, ..., elementN);
 ```
 
 ## Usage examples

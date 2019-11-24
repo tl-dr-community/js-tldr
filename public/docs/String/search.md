@@ -1,6 +1,6 @@
 # String.prototype.search()
 
-The `search` method executes a search for a match between a `regular expression` and a `given string` and returns an `index` of the first match.
+The **`search`** method executes a search for a match between a `regular expression` and a `given string` and returns an `index` of the first match.
 
 ## Syntax
 

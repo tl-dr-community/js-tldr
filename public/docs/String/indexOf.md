@@ -1,4 +1,4 @@
-# indexOf
+# String.prototype.indexOf()
 
 **The `indexOf` method returns the `index` of the first occurrence of the specified `searchValue` within a `string`**, starting the search at `fromIndex`. It returns **-1** if the `searchValue` is not found.
 

@@ -1,6 +1,6 @@
 # Array.prototype.toLocaleString()
 
-The `toLocaleString` method returns a `string` representing the elements of the `array`.
+The **`toLocaleString`** method returns a `string` representing the elements of the `array`.
 The elements are converted to strings using their `toLocaleString` methods and these strings are separated by a locale-specific string (such as a comma “,”).
 
 ## Syntax

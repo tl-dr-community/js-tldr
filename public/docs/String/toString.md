@@ -1,8 +1,8 @@
 # String.prototype.toString()
 
-The `toString` method returns a _string primitive_ representing the specified _`String` object_.
+The **`toString`** method returns a _string primitive_ representing the specified _`String` object_.
 
-The `String` object overrides the `toString()` method of the `Object` object; it does not inherit `Object.prototype.toString()`. For `String` objects, the `toString()` method returns a string representation of the object and is the same as the `String.prototype.valueOf()` method.
+The `String` object overrides the **`toString()`** method of the `Object` object; it does not inherit `Object.prototype.toString()`. For `String` objects, the **`toString()`** method returns a string representation of the object and is the same as the `String.prototype.valueOf()` method.
 
 ## Syntax
 

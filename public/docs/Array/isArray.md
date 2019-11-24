@@ -1,6 +1,6 @@
 # Array.isArray()
 
-The `isArray` method determines whether the passed `value` is an **Array**.
+The **`isArray`** method determines whether the passed `value` is an **Array**.
 
 ## Syntax
 

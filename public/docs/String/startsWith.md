@@ -1,6 +1,6 @@
 # String.prototype.startsWith()
 
-The `startsWith` method determines whether a `string` begins with the characters of a `search string`, returning a `boolean` value as a result.
+The **`startsWith`** method determines whether a `string` begins with the characters of a `search string`, returning a `boolean` value as a result.
 
 ## Syntax
 

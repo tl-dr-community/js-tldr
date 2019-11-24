@@ -1,6 +1,6 @@
 # Array.prototype.reverse()
 
-The `reverse` method reverses an `array` [_in place_](https://en.wikipedia.org/wiki/In-place_algorithm). The first `array element` becomes the last, and the `last array element` becomes the `first`.
+The **`reverse`** method reverses an `array` [_in place_](https://en.wikipedia.org/wiki/In-place_algorithm). The first `array element` becomes the last, and the `last array element` becomes the `first`.
 
 ## Syntax
 

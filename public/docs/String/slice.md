@@ -1,6 +1,6 @@
 # String.prototype.slice()
 
-The `slice` method extracts a `section` of a `string`, using `begin` and `end` indexes.
+The **`slice`** method extracts a `section` of a `string`, using `begin` and `end` indexes.
 
 ## Syntax
 

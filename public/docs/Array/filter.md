@@ -1,8 +1,8 @@
 # Array.prototype.filter()
 
-The `filter` method creates a new array with all elements that pass the test implemented by the provided function.
+The **`filter`** method creates a new array with all elements that pass the test implemented by the provided function.
 
-You may pass a reference for `this` to be used within test function.
+> NOTE: You may pass a reference for `this` to be used within test function.
 
 ## Syntax
 

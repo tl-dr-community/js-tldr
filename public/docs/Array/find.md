@@ -1,7 +1,8 @@
 # Array.prototype.find()
 
-The `find` method returns the `value` of a first element in `array` that satisfies testing `function`.
-You may pass a reference for `this` to be used within test function.
+The **`find`** method returns the `value` of a first element in `array` that satisfies testing `function`.
+
+> NOTE: You may pass a reference for `this` to be used within test function.
 
 ## Syntax
 

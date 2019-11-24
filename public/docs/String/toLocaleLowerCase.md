@@ -1,13 +1,13 @@
 # String.prototype.toLocaleLowerCase()
 
-The `toLocaleLowerCase` method returns the `string` converted to lower case, according to any locale-specific case mappings.
+The **`toLocaleLowerCase`** method returns the `string` converted to lower case, according to any locale-specific case mappings.
 
 ## Syntax
 
 ```js
 const lowerString = string.toLocaleLowerCase()
 const lowerString = string.toLocaleLowerCase(locale)
-const lowerString = string.toLocaleLowerCase([locale1, locale2, ..., localeN])
+const lowerString = string.toLocaleLowerCase([locale1, ..., localeN])
 ```
 
 ## Usage examples

@@ -1,13 +1,13 @@
 # String.prototype.toLocaleUpperCase()
 
-The `toLocaleUpperCase` method returns the `string` converted to upper case, according to any locale-specific case mappings.
+The **`toLocaleUpperCase`** method returns the `string` converted to upper case, according to any locale-specific case mappings.
 
 ## Syntax
 
 ```js
 const lowerString = string.toLocaleUpperCase();
 const lowerString = string.toLocaleUpperCase(locale);
-const lowerString = string.toLocaleUpperCase(locale1, locale2, ..., localeN);
+const lowerString = string.toLocaleUpperCase(locale1, ..., localeN);
 ```
 
 ## Usage examples

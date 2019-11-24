@@ -1,6 +1,6 @@
 # Array.prototype.includes()
 
-The `includes` method determines whether an `array` includes a certain value among its entries, returning a boolean value as a `result`.
+The **`includes`** method determines whether an `array` includes a certain value among its entries, returning a boolean value as a `result`.
 
 ## Syntax
 

@@ -1,11 +1,11 @@
 # String.prototype.concat()
 
-The `concat` method concatenates the `stringN` arguments to a given `string` and returns a `new string`.
+The **`concat`** method concatenates the `stringN` arguments to a given `string` and returns a `new string`.
 
 ## Syntax
 
 ```js
-const newString = string.concat(string1, string2, ..., stringN);
+const newString = string.concat(string1, ..., stringN);
 ```
 
 ## Usage examples

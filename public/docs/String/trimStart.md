@@ -1,6 +1,6 @@
 # String.prototype.trimLeft()
 
-The `trimStart` method removes whitespace from the beginning of a `string`.
+The **`trimStart`** method removes whitespace from the beginning of a `string`.
 `trimLeft` is an alias of this method.
 
 ## Syntax

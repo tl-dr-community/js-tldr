@@ -1,6 +1,6 @@
 # Array.prototype.sort()
 
-The `sort` method sorts the elements of an `array` _in place_ and returns the `sorted array`.
+The **`sort`** method sorts the elements of an `array` _in place_ and returns the `sorted array`.
 
 The default sort order is _ascending_, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values. You may pass own implementation `compare function`.
 

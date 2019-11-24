@@ -1,6 +1,6 @@
 # Array.prototype.copyWithin()
 
-The `copyWithin` method shallow copies part of an `array` to another location in the same array without modifying its length and returns itself.
+The **`copyWithin`** method shallow copies part of an `array` to another location in the same array without modifying its length and returns itself.
 
 ## Syntax
 

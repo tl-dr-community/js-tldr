@@ -1,6 +1,6 @@
 # String.raw()
 
-The static `raw` method is a tag function of **template literals**, which is used to get the `raw string` form of `template strings`, that is, substitutions (e.g. \${foo}) are processed, but escapes (e.g. \n) are not.
+The static **`raw`** method is a tag function of **template literals**, which is used to get the `raw string` form of `template strings`, that is, substitutions (e.g. \${foo}) are processed, but escapes (e.g. \n) are not.
 
 ## Syntax
 

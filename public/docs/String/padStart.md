@@ -1,6 +1,6 @@
 # String.prototype.padStart()
 
-**The `padStart` method pads a given `string` with a `padding string`** until the resulting string reaches the `target length`.
+The **`padStart`** method pads a given `string` with a `padding string` until the resulting string reaches the `target length`.
 The padding is applied from the start of a given `string`. The `padding string` is repeated is needed.
 
 ## Syntax

@@ -1,6 +1,6 @@
 # Array.prototype.indexOf()
 
-The `indexOf` method returns the first `index` at which a `search value` can be found in the `array`, or **-1** if it is not present.
+The **`indexOf`** method returns the first `index` at which a `search value` can be found in the `array`, or **-1** if it is not present.
 
 ## Syntax
 

@@ -1,6 +1,6 @@
 # Array.prototype.map()
 
-The `map` method creates a _new_ `array` with the results of calling a provided `function` on _every_ element in the calling `array`.
+The **`map`** method creates a _new_ `array` with the results of calling a provided `function` on _every_ element in the calling `array`.
 You may pass a reference for `this` to be used within test function.
 
 ## Syntax

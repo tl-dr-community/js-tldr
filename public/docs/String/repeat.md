@@ -1,6 +1,6 @@
 # String.prototype.repeat()
 
-The `repeat` method returns a `new string` which contains the specified `number` of copies of the `string` on which it was called, concatenated together.
+The **`repeat`** method returns a `new string` which contains the specified `number` of copies of the `string` on which it was called, concatenated together.
 
 ## Syntax
 

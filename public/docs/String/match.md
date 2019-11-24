@@ -1,6 +1,6 @@
 # String.prototype.match()
 
-The `match` method retrieves the result of matching a `string` against a `regular expression`.
+The **`match`** method retrieves the result of matching a `string` against a `regular expression`.
 
 ## Syntax
 

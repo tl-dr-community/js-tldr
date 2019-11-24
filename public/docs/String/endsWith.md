@@ -1,6 +1,6 @@
 # String.prototype.endsWith()
 
-The `endsWith` method determines whether a `string` ends with the characters of a specified `search string`, returning a `boolean` value as a `result`.
+The **`endsWith`** method determines whether a `string` ends with the characters of a specified `search string`, returning a `boolean` value as a `result`.
 
 ## Syntax
 

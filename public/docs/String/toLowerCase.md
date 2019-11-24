@@ -1,6 +1,6 @@
 # String.prototype.toLowerCase()
 
-The `toLowerCase` method returns the `string` converted to lower case.
+The **`toLowerCase`** method returns the `string` converted to lower case.
 
 ## Syntax
 

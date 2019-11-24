@@ -1,6 +1,6 @@
 # String.prototype.codePointAt()
 
-The `codePointAt` method returns a non-negative `integer` that is the Unicode code point value.
+The **`codePointAt`** method returns a non-negative `integer` that is the Unicode code point value.
 
 ## Syntax
 

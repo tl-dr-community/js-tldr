@@ -1,6 +1,6 @@
 # Array.prototype.some()
 
-The `some` method tests whether _at least one_ `element` in the `array` passes the `test function`.
+The **`some`** method tests whether _at least one_ `element` in the `array` passes the `test function`.
 It returns a `Boolean` value.
 You may pass a reference for `this` to be used within test function.
 

@@ -1,6 +1,6 @@
 # String.prototype.toUpperCase()
 
-The `toUpperCase` method returns the `string` converted to uppercase.
+The **`toUpperCase`** method returns the `string` converted to uppercase.
 
 ## Syntax
 

@@ -1,6 +1,6 @@
 # String.prototype.normalize()
 
-**The `normalize` method returns the Unicode Normalization Form of a given `string`**. If the value isn't a string, it will be converted to one first.
+The **`normalize`** method returns the Unicode Normalization Form of a given `string`. If the value isn't a string, it will be converted to one first.
 
 The `form` argument is one of "NFC", "NFD", "NFKC", or "NFKD", specifying the Unicode Normalization Form. If omitted or undefined, "NFC" is used.
 

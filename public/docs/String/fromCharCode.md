@@ -1,11 +1,11 @@
 # String.fromCharCode()
 
-The static `fromCharCode` method returns a `string` created from the specified sequence of UTF-16 code units (`numN`).
+The static **`fromCharCode`** method returns a `string` created from the specified sequence of UTF-16 code units (`numN`).
 
 ## Syntax
 
 ```js
-const string = String.fromCharCode(num1, num2, ..., numN);
+const string = String.fromCharCode(num1, ..., numN);
 ```
 
 ## Usage examples

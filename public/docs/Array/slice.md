@@ -1,6 +1,6 @@
 # Array.prototype.slice()
 
-The `slice` method returns a shallow copy of a portion of an `array` into a new array selected from `begin` to `end` indexes (end not included).
+The **`slice`** method returns a shallow copy of a portion of an `array` into a new array selected from `begin` to `end` indexes (end not included).
 The original array will not be modified.
 
 ## Syntax

@@ -1,6 +1,6 @@
 # Array.of()
 
-The `Array.of` method creates a _new_ `array` from a variable number of `arguments`.
+The **`Array.of`** method creates a _new_ `array` from a variable number of `arguments`.
 
 ## Syntax
 

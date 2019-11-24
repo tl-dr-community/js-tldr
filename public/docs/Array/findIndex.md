@@ -1,9 +1,10 @@
 # Array.prototype.findIndex()
 
-The `findIndex` method returns the `index` of the first element in the `array` that satisfies testing `function`.
-You may pass a reference for `this` to be used within test function.
+The **`findIndex`** method returns the `index` of the first element in the `array` that satisfies testing `function`.
 
-> NOTE: If no element passed the test, `findIndex` returns -1
+> NOTE: You may pass a reference for `this` to be used within test function.
+
+> NOTE: If no element passed the test, **`findIndex`** returns **-1**
 
 ## Syntax
 

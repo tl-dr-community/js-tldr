@@ -1,11 +1,11 @@
 # Array.prototype.splice()
 
-The `splice` method changes the contents of an `array` by removing or replacing existing `elements` and/or adding new `elements` **in place**, returning the array of removed elements
+The **`splice`** method changes the contents of an `array` by removing or replacing existing `elements` and/or adding new `elements` **in place**, returning the array of removed elements
 
 ## Syntax
 
 ```js
-const removedElements = array.splice(start, deleteCount, item1, item2, ..., itemN);
+const removedElements = array.splice(start, deleteCount, item1, ..., itemN);
 ```
 
 ## Usage examples
