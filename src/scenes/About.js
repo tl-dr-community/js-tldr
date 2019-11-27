@@ -1,27 +1,34 @@
 import React from 'react';
+import { OutboundLink } from 'react-ga';
+import { Link } from 'react-router-dom';
+
 import { BoxOverlay } from 'components/BoxOverlay/BoxOverlay';
 import { Title } from 'components/Typography/Title';
 import { P } from 'components/Typography/P';
 import { Bracket } from 'components/Typography';
-import { OutboundLink } from 'react-ga';
-import { PRIVACY_POLICY } from './routes';
-import { Link } from 'react-router-dom';
 
-export const About = props => {
+import { PRIVACY_POLICY } from './routes';
+import patronsLabelImg from './patrons-label.png';
+
+import classes from './About.module.scss';
+import { Patron } from './Patron';
+
+export const About = () => {
   return (
     <BoxOverlay>
       <Title>
         <strong>
           <Bracket>JS</Bracket> tl;dr
         </strong>{' '}
-        - javascript cheatsheet you needed.
+        - zen-mode javascript documentation
       </Title>
       <P>
-        We can all agree that developers often forget how to use basic methods
-        of language build-in objects. It's okay to google how{' '}
-        <strong>Array.prototype.slice()</strong> works over and over again; we
-        do that too! We believe that developers don't have to remember all those
-        basic language feature.
+        As a team of{' '}
+        <strong>
+          <Bracket>JS</Bracket> tl;dr
+        </strong>{' '}
+        tool, our goal is to provide info on language essentials in a noiseless,
+        zen-mode manner, so you can focus on what matters - build great stuff.
       </P>
 
       <P>
@@ -40,29 +47,16 @@ export const About = props => {
         We do use MDN documentation as a base for our texts under{' '}
         <strong>CC-BY-SA 2.5 license</strong>.
         <br />
-        See more details here:{' '}
+        See more details{' '}
         <OutboundLink
           to="https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses"
           rel="noreferrer noopener"
           target="_blank"
           eventLabel="MDN license"
         >
-          https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses
+          here
         </OutboundLink>
-      </P>
-
-      <P>
-        But sometimes all we need is just a hint on how to use some method
-        correctly or what its arguments are without going deeper into details.
-      </P>
-
-      <P>
-        As a team of{' '}
-        <strong>
-          <Bracket>JS</Bracket> tl;dr
-        </strong>{' '}
-        tool, our goal is to provide info on language essentials in a noiseless,
-        zen-mode manner, so you can focus on what matters - build great stuff.
+        .
       </P>
 
       <P>
@@ -83,15 +77,33 @@ export const About = props => {
         expenses.
       </P>
 
-      <P>
-        We're happy to recognize our patrons! Become one and we'll add info
-        about you here.{' '}
-        <a href="https://www.patreon.com/jstldr">
-          https://www.patreon.com/jstldr
-        </a>
+      <Title center>
+        <img
+          className={classes.patronsImg}
+          src={patronsLabelImg}
+          alt="Our Patrons"
+        />
+      </Title>
+      <P center>
+        <Patron
+          name="Blazo"
+          picture="https://comicvine1.cbsistatic.com/uploads/original/3/39857/1092291-ed05.jpg"
+          link="https://zunzar.live/"
+        ></Patron>
       </P>
       <P>
-        Read the story in the{' '}
+        We're happy to recognize our patrons!{' '}
+        <OutboundLink
+          to="https://www.patreon.com/join/jstldr?"
+          eventLabel="Become a patreon"
+        >
+          Become a patron
+        </OutboundLink>{' '}
+        and we'll add info about you here.{' '}
+      </P>
+      <P></P>
+      <P>
+        Read our story in the{' '}
         <OutboundLink
           to="https://medium.com/@rusinovantondev/js-tl-dr-zen-mode-web-docs-for-javascript-developers-cf45e0143a09"
           target="_blank"
