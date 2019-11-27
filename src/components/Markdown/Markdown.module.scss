@@ -1,5 +1,20 @@
+@import '../../variables.scss';
+
+.container {
+  @media #{$media-sm-max} {
+    h1 {
+      font-size: 1.3em;
+      word-break: break-all;
+    }
+
+    h2 {
+      font-size: 1.3em;
+    }
+  }
+}
+
 blockquote {
-  border-left: 1px solid rgba(255,255,255, 0.8);
+  border-left: 1px solid rgba(255, 255, 255, 0.8);
   padding-left: 1rem;
   margin: 0;
   margin-bottom: 1em;
@@ -8,4 +23,15 @@ blockquote {
 hr {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+pre,
+code {
+  background-color: $bg-light;
+}
+
+pre {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  overflow: auto;
 }
