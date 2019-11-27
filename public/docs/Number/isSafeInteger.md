@@ -4,7 +4,7 @@ The **`isSafeInteger`** method determines whether the provided `value` is a `num
 
 > NOTE: returns boolean.
 
-> NOTE: JavaScript can only safely represent integers i in the range −253 < i < 253. In the range (−253, 253) (excluding the lower and upper bounds), JavaScript integers are **safe**:
+> NOTE: JavaScript can only safely represent integers i in the range −2<sup>53</sup> < i < 2<sup>53</sup>. In the range (−2<sup>53</sup>, 2<sup>53</sup>) (excluding the lower and upper bounds), JavaScript integers are **safe**:
 
 ## Syntax
 
