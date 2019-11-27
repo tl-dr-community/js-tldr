@@ -1,4 +1,4 @@
-@import './colors';
+@import './variables';
 
 $button-shadow: 0 0 0.4em 0 darken($bg, 2%);
 $button-shadow-outline: $button-shadow, $focus-outline;

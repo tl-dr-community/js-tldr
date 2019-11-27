@@ -13,8 +13,6 @@ export const Documentation = ({ match: { params } }) => {
   const [isLoading, setLoading] = useState(false);
   const [md, setMd] = useState(null);
   useEffect(() => {
-    if (isLoading) return;
-
     setLoading(true);
     fetch(
       urlJoin(
@@ -32,7 +30,7 @@ export const Documentation = ({ match: { params } }) => {
         console.error(error);
         setLoading(false);
       });
-  }, []);
+  }, [domain, method]);
 
   return (
     <BoxOverlay>

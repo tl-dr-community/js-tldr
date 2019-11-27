@@ -6,7 +6,7 @@ import { ObjectExpression } from 'components/Typography';
 const CHIP_VALUES = ['Array', 'Function', 'Number', 'RegExp', 'String'];
 export const SearchChips = ({ onChange }) => {
   return (
-    <div>
+    <>
       {CHIP_VALUES.map(value => (
         <Button
           key={value}
@@ -17,6 +17,6 @@ export const SearchChips = ({ onChange }) => {
           <ObjectExpression>{value}</ObjectExpression>
         </Button>
       ))}
-    </div>
+    </>
   );
 };

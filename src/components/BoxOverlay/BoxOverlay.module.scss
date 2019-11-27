@@ -1,15 +1,25 @@
-@import '../../colors';
+@import '../../variables';
 
 .box {
   position: relative;
-  padding: 3rem;
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
+  overflow: auto;
+  padding: 2.5rem 1.5rem;
+
+  @media #{media-sm-min} {
+    padding: 3rem;
+  }
 }
 
 .close {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  right: 0.5rem;
+  top: 0;
+
+  @media #{media-sm-min} {
+    top: 1rem;
+    right: 1rem;
+  }
 }

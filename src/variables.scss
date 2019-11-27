@@ -14,3 +14,7 @@ $object: #66d9ef;
 $property: #ffa8fe;
 
 $focus-outline: 0 0 0 2px $cursor;
+
+$sm: 680;
+$media-sm-min: "screen and (min-width: #{$sm}px)";
+$media-sm-max: "screen and (max-width: #{$sm - 1}px)";

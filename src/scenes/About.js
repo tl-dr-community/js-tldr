@@ -45,9 +45,7 @@ export const About = () => {
         human-readable manner.
         <br />
         We do use MDN documentation as a base for our texts under{' '}
-        <strong>CC-BY-SA 2.5 license</strong>.
-        <br />
-        See more details{' '}
+        <strong>CC-BY-SA 2.5 license</strong>. See more details{' '}
         <OutboundLink
           to="https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses"
           rel="noreferrer noopener"

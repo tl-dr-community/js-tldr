@@ -1,11 +1,14 @@
-@import '../colors';
+@import '../variables';
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
+  @media #{$media-sm-min} {
+    font-size: 16px;
+  }
 }
 
 html,
