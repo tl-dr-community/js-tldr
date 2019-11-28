@@ -35,7 +35,6 @@
   position: absolute;
   top: 0.9em;
   right: 1em;
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 1.5rem;
@@ -46,6 +45,6 @@
   display: none;
 
   @media #{$media-sm-min} {
-    display: block;
+    display: flex;
   }
 }
