@@ -1,6 +1,6 @@
 {
   "short_name": "JS tl;dr",
-  "name": "Javascript cheatsheet you needed",
+  "name": "Zen-mode javascript documentation",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#333454",
+  "background_color": "#292a44"
 }
