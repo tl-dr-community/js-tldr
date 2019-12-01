@@ -18,6 +18,7 @@ export const PrivacyPolicy = props => {
           rel="noreferrer noopener"
           target="_blank"
           eventLabel="Google Analytics"
+          data-cy="PrivacyPolicy_gaLink"
         >
           Google Analytics
         </OutboundLink>{' '}
@@ -31,6 +32,7 @@ export const PrivacyPolicy = props => {
           title="@rusinovAntonDev"
           target="_blank"
           eventLabel="Twitter"
+          data-cy="PrivacyPolicy_twitterLink"
         >
           Twitter
         </OutboundLink>
@@ -41,6 +43,7 @@ export const PrivacyPolicy = props => {
           title="@rusinovAntonDev"
           target="_blank"
           eventLabel="email"
+          data-cy="PrivacyPolicy_emailLink"
         >
           E-mail
         </OutboundLink>

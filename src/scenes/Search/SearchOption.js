@@ -7,7 +7,7 @@ export const SearchOption = ({ index, path, score, searchString }) => {
   const opacity = index ? Math.max(1 - score.toFixed(2) * 2, 0.5) : 1;
 
   return (
-    <Link to={path} className={classes.option} style={{ opacity }}>
+    <Link to={path} className={classes.option} style={{ opacity }} data-cy={`SearchOption_${path.split('/')[2]}${path.split('/')[3]}Link`}>
       {searchString}
     </Link>
   );
