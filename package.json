@@ -24,16 +24,17 @@
     "url-join": "^4.0.1"
   },
   "scripts": {
+    "build:search-index": "babel-node ./build-search-index.js",
     "build": "react-scripts build",
+    "cm": "git-cz",
     "cypress:open": "./node_modules/.bin/cypress open --project tests/e2e",
     "cypress:run": "./node_modules/.bin/cypress run --project tests/e2e",
     "dev": "react-scripts start",
     "eject": "react-scripts eject",
     "start": "serve -s ./build",
-    "test": "npm run test:u && npm run test:e2e",
-    "test:u": "jest tests/unitary",
     "test:e2e": "npm run cypress:run",
-    "cm": "git-cz"
+    "test:u": "jest tests/unitary",
+    "test": "npm run test:u && npm run test:e2e"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -70,6 +71,8 @@
   },
   "homepage": "http://js-tldr.info/",
   "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "commitizen": "^4.0.3",
