@@ -11,6 +11,7 @@ export const Patron = ({ name, picture, link }) => {
       to={link}
       target="_blank"
       rel="noopener noreferrer"
+      data-cy={`Patron_${name}Link`}
     >
       <span className={classes.pictureContainer}>
         <img className={classes.picture} src={picture} alt={name} />

@@ -24,7 +24,7 @@ export const Header = props => {
         </h1>
       </Col>
       <Col>
-        <Link to={ABOUT}>About</Link>&nbsp;
+        <Link to={ABOUT} data-cy="Header_aboutLink">About</Link>&nbsp;
         <Dot />
       </Col>
       <OutboundLink
@@ -33,6 +33,7 @@ export const Header = props => {
         to={process.env.REACT_APP_GITHUB_REPO_LINK}
         target="_blank"
         rel="noreferrer noopener"
+        data-cy="Header_githubLink"
       >
         <Comment>
           <svg

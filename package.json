@@ -24,11 +24,15 @@
     "url-join": "^4.0.1"
   },
   "scripts": {
-    "start": "serve -s ./build",
-    "dev": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "cypress:open": "./node_modules/.bin/cypress open --project tests/e2e",
+    "cypress:run": "./node_modules/.bin/cypress run --project tests/e2e",
+    "dev": "react-scripts start",
+    "eject": "react-scripts eject",
+    "start": "serve -s ./build",
+    "test": "npm run test:u && npm run test:e2e",
+    "test:u": "jest tests/unitary",
+    "test:e2e": "npm run cypress:run"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -63,5 +67,9 @@
   "bugs": {
     "url": "https://github.com/RusinovAnton/js-tldr/issues"
   },
-  "homepage": "http://js-tldr.info/"
+  "homepage": "http://js-tldr.info/",
+  "devDependencies": {
+    "cypress": "^3.7.0",
+    "jest": "^24.9.0"
+  }
 }

@@ -2,11 +2,15 @@
 
 ![logo](logo.png)
 
-## Development
+## Development scripts
 
 ```bash
-$ npm install
-$ npm run dev
+$ npm install - installs required dependencies
+$ npm run dev - runs application in development mode
+$ npm run test - runs unitary and end-to-end tests
+$ npm run test:u - runs unitary tests only
+$ npm run test:e2e - runs end-to-end tests only headlessly in an electron browser
+$ npm run cypress:open - runs [cypress](https://www.cypress.io/) interactive mode, allowing to run end-to-end tests individually with a non-headless electron browser
 ```
 
 ## Contribution guide

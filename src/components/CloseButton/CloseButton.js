@@ -15,6 +15,7 @@ export const CloseButton = ({
       title="Close this window (Esc)"
       className={cn(className, classes.button, {})}
       {...props}
+      data-cy="BoxOverlay_closeButton"
     ></CloseButtonComponent>
   );
 };

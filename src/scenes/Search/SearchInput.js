@@ -18,6 +18,7 @@ export const SearchInput = forwardRef(({ wrapperRef, ...props }, ref) => {
         size="xl"
         aria-label="Search"
         {...props}
+        data-cy="SearchInput_input"
       />
       <span className={classes.shortKey}>/</span>
     </div>

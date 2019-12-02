@@ -13,6 +13,7 @@ export const SearchChips = ({ onChange }) => {
           size="xs"
           style={{ margin: '0.5rem' }}
           onClick={() => onChange(`${value}.`)}
+          data-cy={`SearchChips_${value}Button`}
         >
           <ObjectExpression>{value}</ObjectExpression>
         </Button>
