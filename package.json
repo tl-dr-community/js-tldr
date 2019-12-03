@@ -32,7 +32,8 @@
     "start": "serve -s ./build",
     "test": "npm run test:u && npm run test:e2e",
     "test:u": "jest tests/unitary",
-    "test:e2e": "npm run cypress:run"
+    "test:e2e": "npm run cypress:run",
+    "cm": "git-cz"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -69,7 +70,26 @@
   },
   "homepage": "http://js-tldr.info/",
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "commitizen": "^4.0.3",
+    "conventional-changelog-conventionalcommits": "^4.2.3",
     "cypress": "^3.7.0",
-    "jest": "^24.9.0"
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
