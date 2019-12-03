@@ -2,6 +2,8 @@
 
 ![logo](logo.png)
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 ## Development scripts
 
 ```bash
@@ -79,7 +81,6 @@ In the description body:
 - use **code** markup for syntax's terms and reflect them in syntax code example. For instance:
 
 ![description example](description_example.png)
-
 
 ##### Code
 
