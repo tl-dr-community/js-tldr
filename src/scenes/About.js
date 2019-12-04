@@ -117,7 +117,21 @@ export const About = () => {
         </OutboundLink>
       </P>
       <P>
-        <Link to={PRIVACY_POLICY} data-cy="About_privacypolicyLink">Privacy Policy</Link>
+        If you're interested in contributing to our project, welcome to the{' '}
+        <OutboundLink
+          href="https://discord.gg/z59sRKt"
+          target="_blank"
+          rel="noreferrer noopener"
+          eventLabel="Discord"
+          data-cy="About_discordServerLink"
+        >
+          JS tl;dr Discord server
+        </OutboundLink>
+      </P>
+      <P>
+        <Link to={PRIVACY_POLICY} data-cy="About_privacypolicyLink">
+          Privacy Policy
+        </Link>
       </P>
     </BoxOverlay>
   );
