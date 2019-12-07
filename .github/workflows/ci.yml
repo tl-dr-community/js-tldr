@@ -26,7 +26,7 @@ jobs:
         uses: cypress-io/github-action@v1
         with:
           browser: chrome
-          config-file: tests/e2e/cypress.json
+          config-file: ./tests/e2e/cypress.json
           start: npm run dev
           wait-on: 'http://localhost:3000/'
 
