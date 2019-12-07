@@ -24,8 +24,9 @@
     "url-join": "^4.0.1"
   },
   "scripts": {
+    "build:app": "react-scripts build",
     "build:search-index": "babel-node ./build-search-index.js",
-    "build": "react-scripts build",
+    "build": "npm run build:app && build:search-index",
     "cm": "git-cz",
     "cypress:open": "./node_modules/.bin/cypress open --project tests/e2e",
     "cypress:run": "./node_modules/.bin/cypress run --project tests/e2e",
