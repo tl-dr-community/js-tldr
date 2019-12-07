@@ -31,7 +31,7 @@
   "scripts": {
     "build:app": "react-scripts build",
     "build:search-index": "babel-node ./build-search-index.js",
-    "build": "npm run build:app && build:search-index",
+    "build": "npm run build:app && npm run build:search-index",
     "cm": "git-cz",
     "cypress:open": "./node_modules/.bin/cypress open --project tests/e2e",
     "cypress:run": "./node_modules/.bin/cypress run --project tests/e2e",
