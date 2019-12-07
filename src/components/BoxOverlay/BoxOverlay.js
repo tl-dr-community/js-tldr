@@ -3,7 +3,7 @@ import cn from 'classnames';
 import { useKey } from 'react-use';
 import { useHistory } from 'react-router-dom';
 
-import { CloseButton } from '../CloseButton';
+import { CloseButton } from 'components/CloseButton';
 import classes from './BoxOverlay.module.scss';
 
 export const BoxOverlay = ({
