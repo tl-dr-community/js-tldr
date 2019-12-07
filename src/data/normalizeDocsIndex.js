@@ -21,7 +21,10 @@ module.exports = index => {
     const {
       name: domainName,
       path: domainPath,
-      properties: { prototype: prototypeProperties, static: staticProperties } = {},
+      properties: {
+        prototype: prototypeProperties,
+        static: staticProperties,
+      } = {},
       methods: { prototype: prototypeMethods, static: staticMethods } = {},
     } = domain;
 
