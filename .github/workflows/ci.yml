@@ -25,7 +25,6 @@ jobs:
       - name: 'Run e2e cypress tests'
         uses: cypress-io/github-action@v1
         with:
-          parallel: true
           browser: chrome
           config-file: tests/e2e/cypress.json
           start: npm run dev
