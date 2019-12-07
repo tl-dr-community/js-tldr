@@ -10,16 +10,19 @@ import './syntax-highlight.scss';
 const replaceLinksTarget = htmlString =>
   htmlString.replace('<a href', '<a target="_blank" href');
 
-const md = new MarkdownIt({
-  highlight: function(source, language) {
-    if (!language) return;
+const processCodeLanguageHighlight = (source, language) => {
+  if (!language) return;
 
-    try {
-      return prism.highlight(source, prism.languages[language], language);
-    } catch (error) {
-      console.log(error);
-    }
+  try {
+    return prism.highlight(source, prism.languages[language], language);
+  } catch (error) {
+    console.log(error);
   }
+};
+
+const md = new MarkdownIt({
+  highlight: processCodeLanguageHighlight,
+  html: true,
 });
 
 const transformMd = compose([replaceLinksTarget, md.render.bind(md)]);
