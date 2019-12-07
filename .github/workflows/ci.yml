@@ -28,6 +28,8 @@ jobs:
           parallel: true
           browser: chrome
           config-file: tests/e2e/cypress.json
+          start: npm run dev
+          wait-on: 'http://localhost:3000/'
 
       - name: 'Build the dist'
         run: npm run build
