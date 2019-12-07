@@ -1,26 +1,41 @@
-name: Deploy app to prod
-
+name: Deploy to production
 on:
   push:
     tags:
-    - 'v1.*'
+      - 'v1.*'
 
 jobs:
-  install-build-deploy:
-    name: make everything
+  install-test-build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - name: 'Checkout'
+        uses: actions/checkout@v1
+
+      - name: 'Install Nodejs'
+        uses: actions/setup-node@v1
         with:
           node-version: '10.x'
-      - run: npm install
-      - run: npm run build
-      - name: Authenticate Google Cloud
-        uses: actions/gcloud/auth@master
-        env:
-          GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
-      - name: Deploy app to Google Cloud
-        uses: actions/gcloud/cli@master
+
+      - name: 'Install packages'
+        run: npm install
+
+      - name: 'Run unit tests'
+        run: npm run test:u
+
+      - name: 'Run e2e cypress tests'
+        uses: cypress-io/github-action@v1
         with:
-          args: app deploy --project=${{ secrets.CLOUDSDK_CORE_PROJECT }}
+          parallel: true
+          browser: chrome
+
+      - name: 'Build the dist'
+        run: npm run build
+
+      - name: 'Setup gcloud'
+        uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+        with:
+          version: '271.0.0'
+          service_account_key: ${{ secrets.GCLOUD_AUTH }}
+
+      - name: 'Deploy the app'
+        run: gcloud app deploy --project=${{ secrets.CLOUDSDK_CORE_PROJECT }}
