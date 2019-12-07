@@ -119,7 +119,7 @@ export const About = () => {
       <P>
         If you're interested in contributing to our project, welcome to the{' '}
         <OutboundLink
-          href="https://discord.gg/z59sRKt"
+          to="https://discord.gg/z59sRKt"
           target="_blank"
           rel="noreferrer noopener"
           eventLabel="Discord"
