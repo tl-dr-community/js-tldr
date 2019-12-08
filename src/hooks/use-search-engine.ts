@@ -1,9 +1,19 @@
 import { useMemo } from 'react';
-import Fuse from 'fuse.js';
+import Fuse, { FuseOptions } from 'fuse.js';
 
-export const useSearchEngine = data => {
-  const searchEngine = useMemo(() => {
-    if (!data) return null;
+export type SearchIndexEntry = {
+  body: String;
+  category: String;
+  name: String;
+  path: String;
+  searchString: String;
+};
+
+export type SearchEngine = Fuse<Array<SearchIndexEntry>, FuseOptions<any>>;
+export const useSearchEngine = (
+  data?: Array<SearchIndexEntry>,
+): SearchEngine => {
+  const searchEngine: SearchEngine = useMemo(() => {
     return new Fuse(data, {
       caseSensitive: false,
       distance: 1000,
