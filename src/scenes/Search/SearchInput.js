@@ -20,7 +20,12 @@ export const SearchInput = forwardRef(({ wrapperRef, ...props }, ref) => {
         {...props}
         data-cy="SearchInput_input"
       />
-      <span className={classes.shortKey}>/</span>
+      <span
+        className={classes.shortKey}
+        title="Press '/' button to focus the input"
+      >
+        /
+      </span>
     </div>
   );
 });
