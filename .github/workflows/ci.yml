@@ -27,6 +27,7 @@ jobs:
         with:
           browser: chrome
           config-file: tests/e2e/cypress.json
+          working-directory: tests/e2e
           start: npm run dev
           wait-on: 'http://localhost:3000/'
           parallel: true
