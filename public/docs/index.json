@@ -127,7 +127,7 @@
       "type": "object",
       "description": "",
       "path": "/docs/Math",
-      "properties": {
+      "methods": {
         "static": [
           "abs",
           "acos",
@@ -165,9 +165,6 @@
           "tanh",
           "trunc"
         ]
-      },
-      "methods": {
-        "prototype": []
       }
     },
     {
