@@ -31,7 +31,7 @@ jobs:
       #     wait-on: 'http://localhost:3000/'
 
       - name: 'Build the dist'
-        run: npm run build
+        run: NODE_ENV=production npm run build
 
       - name: 'Setup gcloud'
         uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
