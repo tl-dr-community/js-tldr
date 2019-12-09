@@ -1,4 +1,4 @@
-# Array.prototype.concat()
+# Array.prototype.values()
 
 The **`values`** method returns a new `iterator` that contains the elements for each `index` in the `array`.
 

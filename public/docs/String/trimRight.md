@@ -1,6 +1,6 @@
 # String.prototype.trimRight()
 
-The **`trimEnd`** method removes whitespace from the end of a `string`.
+The **`trimRight`** method removes whitespace from the end of a `string`.
 `trimRight` is an alias of this method.
 
 ## Syntax
