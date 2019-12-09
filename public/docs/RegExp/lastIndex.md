@@ -13,3 +13,5 @@ regex.lastIndex; // -> 9
 regex.test(string);
 regex.lastIndex; // ->  19
 ```
+
+[MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastIndex)

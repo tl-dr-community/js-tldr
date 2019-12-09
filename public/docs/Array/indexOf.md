@@ -18,3 +18,5 @@ array.indexOf(9, 2); // ->  2
 array.indexOf(2, -1); // -> -1
 array.indexOf(2, -3); // -> 0
 ```
+
+[MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
