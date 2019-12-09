@@ -25,4 +25,4 @@ yarn-error.log*
 .history/
 .vscode/
 
-**/search-index.json
+# **/search-index.json
