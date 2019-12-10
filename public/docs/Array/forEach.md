@@ -5,7 +5,7 @@ The **`forEach`** method executes a provided `function` once for each `array` el
 ## Syntax
 
 ```js
-array.forEach((currentValue index,  array) => {}, thisArg);
+array.forEach((currentValue, index,  array) => {}, thisArg);
 ```
 
 ## Usage examples
