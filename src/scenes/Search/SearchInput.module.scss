@@ -48,3 +48,8 @@
     display: flex;
   }
 }
+
+.icon,
+.shortKey {
+  pointer-events: none;
+}
