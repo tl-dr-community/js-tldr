@@ -16,7 +16,7 @@ export const Search = memo(() => {
     inputRef.current && inputRef.current.focus();
   };
 
-  const data = useDocsData();
+  const { data } = useDocsData();
   const searchEngine = useSearchEngine(data);
   useKeyUp('/', focusInput);
 
