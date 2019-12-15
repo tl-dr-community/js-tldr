@@ -1,6 +1,7 @@
 $white: #f1eff7;
 $bg: #292a44;
 $bg-light: #333454;
+$bg-lighter: #454776;
 
 $cursor: #94f2e7;
 $dotColor: #f92672;
@@ -16,5 +17,5 @@ $property: #ffa8fe;
 $focus-outline: 0 0 0 2px $cursor;
 
 $sm: 680;
-$media-sm-min: "screen and (min-width: #{$sm}px)";
-$media-sm-max: "screen and (max-width: #{$sm - 1}px)";
+$media-sm-min: 'screen and (min-width: #{$sm}px)';
+$media-sm-max: 'screen and (max-width: #{$sm - 1}px)';
