@@ -22,13 +22,17 @@ jobs:
       - name: 'Run unit tests'
         run: npm run test:u
 
-      # - name: 'Run e2e cypress tests'
-      #   uses: cypress-io/github-action@v1
-      #   with:
-      #     browser: chrome
-      #     config-file: ./tests/e2e/cypress.json
-      #     start: npm run dev
-      #     wait-on: 'http://localhost:3000/'
+      - name: 'Run e2e cypress tests'
+        uses: cypress-io/github-action@v1
+        with:
+          browser: chrome
+          config-file: tests/e2e/cypress.json
+          start: npm run dev
+          wait-on: 'http://localhost:3000/'
+          parallel: true
+          record: true
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
 
       - name: 'Build the dist'
         run: NODE_ENV=production npm run build
