@@ -17,11 +17,6 @@ $button-shadow-outline: $button-shadow, $focus-outline;
   box-shadow: $button-shadow;
   padding: 0.5em 1em;
   min-width: 10em;
-  cursor: pointer;
-
-  &:hover {
-    background-color: $bg-lighter;
-  }
 
   &:focus-visible {
     box-shadow: $button-shadow-outline;
