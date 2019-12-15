@@ -6,6 +6,7 @@
   transition: background-color 0.2s;
   cursor: pointer;
 
+  &:focus,
   &:hover {
     background-color: $bg-lighter;
   }
