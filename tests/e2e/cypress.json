@@ -1,5 +1,5 @@
 {
-  "testFiles": "./cypress/integration/**/*.spec.js",
+  "testFiles": "./**/*",
   "baseUrl": "http://localhost:3000/",
   "screenshotOnRunFailure": false,
   "trashAssetsBeforeRuns": false,
