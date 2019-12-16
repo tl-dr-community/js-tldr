@@ -4,6 +4,11 @@
 .button {
   @include button-shape;
   transition: background-color 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $bg-lighter;
+  }
 
   &:empty {
     display: none;

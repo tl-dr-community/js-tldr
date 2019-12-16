@@ -1,6 +1,6 @@
-import urlJoin from 'url-join';
+const urlJoin = require('url-join');
 
-export const normalizeDocsIndex = index => {
+module.exports = index => {
   const normalizedIndex = [];
   const { domains } = index;
   const addToIndex = (methodName, methodType, domainName, domainPath) => {
@@ -21,7 +21,10 @@ export const normalizeDocsIndex = index => {
     const {
       name: domainName,
       path: domainPath,
-      properties: { prototype: prototypeProperties, static: staticProperties } = {},
+      properties: {
+        prototype: prototypeProperties,
+        static: staticProperties,
+      } = {},
       methods: { prototype: prototypeMethods, static: staticMethods } = {},
     } = domain;
 

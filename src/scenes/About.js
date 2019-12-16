@@ -38,6 +38,7 @@ export const About = () => {
           rel="noreferrer noopener"
           target="_blank"
           eventLabel="tldr"
+          data-cy="About_tldrLink"
         >
           tldr
         </OutboundLink>{' '}
@@ -51,6 +52,7 @@ export const About = () => {
           rel="noreferrer noopener"
           target="_blank"
           eventLabel="MDN license"
+          data-cy="About_mdnlicencesdocLink"
         >
           here
         </OutboundLink>
@@ -67,6 +69,7 @@ export const About = () => {
           rel="noreferrer noopener"
           target="_blank"
           eventLabel="Github Repo"
+          data-cy="About_githubLink"
         >
           open-source
         </OutboundLink>{' '}
@@ -94,6 +97,7 @@ export const About = () => {
         <OutboundLink
           to="https://www.patreon.com/join/jstldr?"
           eventLabel="Become a patreon"
+          data-cy="About_patreonLink"
         >
           Become a patron
         </OutboundLink>{' '}
@@ -107,12 +111,27 @@ export const About = () => {
           target="_blank"
           rel="noreferrer noopener"
           eventLabel="Medium"
+          data-cy="About_mediumLink"
         >
           Medium article
         </OutboundLink>
       </P>
       <P>
-        <Link to={PRIVACY_POLICY}>Privacy Policy</Link>
+        If you're interested in contributing to our project, welcome to the{' '}
+        <OutboundLink
+          to="https://discord.gg/z59sRKt"
+          target="_blank"
+          rel="noreferrer noopener"
+          eventLabel="Discord"
+          data-cy="About_discordServerLink"
+        >
+          JS tl;dr Discord server
+        </OutboundLink>
+      </P>
+      <P>
+        <Link to={PRIVACY_POLICY} data-cy="About_privacypolicyLink">
+          Privacy Policy
+        </Link>
       </P>
     </BoxOverlay>
   );

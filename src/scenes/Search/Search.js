@@ -16,18 +16,19 @@ export const Search = memo(() => {
     inputRef.current && inputRef.current.focus();
   };
 
-  const data = useDocsData();
+  const { data } = useDocsData();
   const searchEngine = useSearchEngine(data);
   useKeyUp('/', focusInput);
 
   const doSearch = query => {
     setSearchQuery(query);
-    const options = query
-      ? searchEngine
-          .search(query)
-          .map(({ item, score }) => ({ score, ...item }))
-          .filter(option => option.score < 0.2)
-      : [];
+    const options =
+      query && searchEngine
+        ? searchEngine
+            .search(query)
+            .map(({ item, score }) => ({ score, ...item }))
+            .filter(option => option.score < 0.2)
+        : [];
     setOptions(options);
   };
 
