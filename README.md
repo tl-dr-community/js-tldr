@@ -15,4 +15,4 @@
 
 ## Contribution guide
 
-If you'd like to help us improving the website and docs, please see our [contribution guide](CONTRIBUTION.md)
+If you'd like to help us improving the website and docs, please see our [contribution guide](CONTRIBUTING.md)
