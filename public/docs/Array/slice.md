@@ -15,6 +15,8 @@ const newArray = originalArray.slice(beginIndex, endIndex);
 [1, 2, 3].slice(); // -> [1, 2, 3]
 [1, 2, 3, 4, 5].slice(2); // -> [3, 4, 5]
 [1, 2, 3, 4, 5].slice(2, 3); // -> [3]
+[1, 2, 3, 4, 5].slice(-1); // -> [5]
+[1, 2, 3, 4, 5].slice(-2); // -> [4, 5];
 ```
 
 ---
