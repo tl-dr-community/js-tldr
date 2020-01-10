@@ -200,6 +200,26 @@
       "methods": {
         "prototype": ["exec", "test", "toString"]
       }
+    },
+    {
+      "name": "Map",
+      "type": "object",
+      "description": "key-value pairs in insertion order",
+      "path": "/docs/Map",
+      "properties": {
+        "prototype": ["size"],
+        "methods": [
+          "clear",
+          "delete",
+          "entries",
+          "forEach",
+          "get",
+          "has",
+          "keys",
+          "set",
+          "values"
+        ]
+      }
     }
   ]
 }
