@@ -122,3 +122,4 @@ In the syntax and usage examples code body:
 - _do not_ use abbreviations for variables names, eg DONT `const str = ...`, DO `const string = ...`
 - use the stdout comment `// ->` to show results
 - try to avoid using `console.log`, just use stdout comment and the end of method call or property expression
+- use only modern ES6 syntax, eg. use `const`/`let` instead of `var`
