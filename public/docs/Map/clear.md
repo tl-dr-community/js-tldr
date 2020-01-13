@@ -11,17 +11,17 @@ map.clear();
 ## Usage Examples
 
 ```js
-var myMap = new Map();
-myMap.set('bar', 'baz');
-myMap.set(1, 'foo');
+const map = new Map();
+map.set('bar', 'baz');
+map.set(1, 'foo');
 
-myMap.size; // 2
-myMap.has('bar'); // true
+map.size; // -> 2
+map.has('bar'); // -> true
 
-myMap.clear();
+map.clear();
 
-myMap.size; // 0
-myMap.has('bar'); // false
+map.size; // -> 0
+map.has('bar'); // -> false
 ```
 
 ---

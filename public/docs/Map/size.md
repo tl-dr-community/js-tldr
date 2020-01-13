@@ -5,12 +5,12 @@ the **`size`** property accessor property returns the number of elements in a `M
 ## Usage Examples
 
 ```js
-var myMap = new Map();
-myMap.set('a', 'alpha');
-myMap.set('b', 'beta');
-myMap.set('g', 'gamma');
+const map = new Map();
+map.set('a', 'alpha');
+map.set('b', 'beta');
+map.set('g', 'gamma');
 
-myMap.size; // 3
+map.size; // -> 3
 ```
 
 ---

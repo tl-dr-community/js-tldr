@@ -11,16 +11,18 @@ map.entries();
 ## Usage Examples
 
 ```js
-let myMap = new Map();
-myMap.set('0', 'foo');
-myMap.set(1, 'bar');
-myMap.set({}, 'baz');
+const map = new Map();
+map.set('0', 'foo');
+map.set(1, 'bar');
+map.set({}, 'baz');
 
-let mapIter = myMap.entries();
+const mapIter = map.entries();
 
-console.log(mapIter.next().value); // ["0", "foo"]
-console.log(mapIter.next().value); // [1, "bar"]
-console.log(mapIter.next().value); // [Object, "baz"]
+mapIter.next().value; // -> ["0", "foo"]
+mapIter.next().value; // -> [1, "bar"]
+mapIter.next().value; // -> [Object, "baz"]
 ```
+
+---
 
 [MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/entries)
