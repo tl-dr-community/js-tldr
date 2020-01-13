@@ -11,11 +11,13 @@ map.has(key))
 ## Usage Examples
 
 ```js
-let myMap = new Map();
-myMap.set('bar', 'foo');
+const map = new Map();
+map.set('bar', 'foo');
 
-myMap.has('bar'); // returns true
-myMap.has('baz'); // returns false
+map.has('bar'); // -> true
+map.has('baz'); // -> false
 ```
+
+---
 
 [MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/has)

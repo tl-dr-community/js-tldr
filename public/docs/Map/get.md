@@ -11,11 +11,13 @@ map.get(key))
 ## Usage Examples
 
 ```js
-let myMap = new Map();
-myMap.set('bar', 'foo');
+const map = new Map();
+map.set('bar', 'foo');
 
-myMap.get('bar'); // Returns "foo"
-myMap.get('baz'); // Returns undefined
+map.get('bar'); // -> "foo"
+map.get('baz'); // -> undefined
 ```
+
+---
 
 [MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get)

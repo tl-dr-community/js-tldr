@@ -25,4 +25,6 @@ new Map([
 // "map.get('baz') = undefined"
 ```
 
+---
+
 [MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/forEach)

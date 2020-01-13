@@ -11,16 +11,18 @@ map.keys();
 ## Usage Examples
 
 ```js
-var myMap = new Map();
-myMap.set('0', 'foo');
-myMap.set(1, 'bar');
-myMap.set({}, 'baz');
+const map = new Map();
+map.set('0', 'foo');
+map.set(1, 'bar');
+map.set({}, 'baz');
 
-var mapIter = myMap.keys();
+const mapIter = map.keys();
 
-console.log(mapIter.next().value); // "0"
-console.log(mapIter.next().value); // 1
-console.log(mapIter.next().value); // Object
+console.log(mapIter.next().value); // -> "0"
+console.log(mapIter.next().value); // -> 1
+console.log(mapIter.next().value); // -> Object
 ```
+
+---
 
 [MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/keys)
