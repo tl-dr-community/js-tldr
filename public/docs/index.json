@@ -220,6 +220,25 @@
           "values"
         ]
       }
+    },
+    {
+      "name": "Set",
+      "type": "object",
+      "description": "store unique values of any type, whether primitive values or object references",
+      "path": "/docs/Set",
+      "properties": {
+        "prototype": ["size"],
+        "methods": [
+          "add",
+          "clear",
+          "delete",
+          "entries",
+          "forEach",
+          "has",
+          "values",
+          "keys"
+        ]
+      }
     }
   ]
 }
