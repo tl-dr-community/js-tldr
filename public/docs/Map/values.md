@@ -11,16 +11,16 @@ map.values();
 ## Usage Examples
 
 ```js
-const myMap = new Map();
-myMap.set('0', 'foo');
-myMap.set(1, 'bar');
-myMap.set({}, 'baz');
+const set = new Map();
+set.set('0', 'foo');
+set.set(1, 'bar');
+set.set({}, 'baz');
 
 const mapIter = myMap.values();
 
-console.log(mapIter.next().value); // -> "foo"
-console.log(mapIter.next().value); // -> "bar"
-console.log(mapIter.next().value); // -> "baz"
+mapIter.next().value; // -> "foo"
+mapIter.next().value; // -> "bar"
+mapIter.next().value; // -> "baz"
 ```
 
 ---
