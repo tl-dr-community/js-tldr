@@ -200,6 +200,49 @@
       "methods": {
         "prototype": ["exec", "test", "toString"]
       }
+    },
+    {
+      "name": "Map",
+      "type": "object",
+      "description": "key-value pairs in insertion order",
+      "path": "/docs/Map",
+      "properties": {
+        "prototype": ["size"]
+      },
+      "methods": {
+        "prototype": [
+          "clear",
+          "delete",
+          "entries",
+          "forEach",
+          "get",
+          "has",
+          "keys",
+          "set",
+          "values"
+        ]
+      }
+    },
+    {
+      "name": "Set",
+      "type": "object",
+      "description": "store unique values of any type, whether primitive values or object references",
+      "path": "/docs/Set",
+      "properties": {
+        "prototype": ["size"]
+      },
+      "methods": {
+        "prototype": [
+          "add",
+          "clear",
+          "delete",
+          "entries",
+          "forEach",
+          "has",
+          "values",
+          "keys"
+        ]
+      }
     }
   ]
 }
