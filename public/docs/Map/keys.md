@@ -1,4 +1,4 @@
-# Map.keys
+# Map.prototype.keys()
 
 the **`keys`** method returns a new `Iterator` object that contains the keys for each element in the `Map` object in insertion order.
 

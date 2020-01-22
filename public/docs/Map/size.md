@@ -1,4 +1,4 @@
-# Map.size
+# Map.prototype.size
 
 the **`size`** property accessor property returns the number of elements in a `Map` object.
 

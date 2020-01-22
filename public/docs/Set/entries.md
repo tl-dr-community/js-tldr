@@ -1,4 +1,4 @@
-# Set.entries
+# Set.prototype.entries()
 
 the **`entries`** method returns a new `Iterator` object that contains the `[value, value]` for each element in the `Set` object, in insertion order. For `Set` objects there is no `key` like in `Map` objects. However, to keep the API similar to the `Map` object, each entry has the same `value` for its `key` and `value` here, so that an array `[value, value]` is returned.
 

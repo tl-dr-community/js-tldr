@@ -207,8 +207,10 @@
       "description": "key-value pairs in insertion order",
       "path": "/docs/Map",
       "properties": {
-        "prototype": ["size"],
-        "methods": [
+        "prototype": ["size"]
+      },
+      "methods": {
+        "prototype": [
           "clear",
           "delete",
           "entries",
@@ -227,8 +229,10 @@
       "description": "store unique values of any type, whether primitive values or object references",
       "path": "/docs/Set",
       "properties": {
-        "prototype": ["size"],
-        "methods": [
+        "prototype": ["size"]
+      },
+      "methods": {
+        "prototype": [
           "add",
           "clear",
           "delete",

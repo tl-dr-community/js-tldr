@@ -1,4 +1,4 @@
-# Set.size
+# Set.prototype.size
 
 the **`size`** accessor property returns the number of (unique) elements in a `Set` object.
 
@@ -10,7 +10,7 @@ set.add(1);
 set.add(5);
 set.add('some text');
 
-set.size; // 3
+set.size; // -> 3
 ```
 
 ---

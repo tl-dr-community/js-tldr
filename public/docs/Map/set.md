@@ -1,4 +1,4 @@
-# Map.set
+# Map.prototype.set()
 
 the **`set`** method adds or updates an element with a specified key and a value to a `Map` object.
 

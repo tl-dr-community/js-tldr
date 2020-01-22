@@ -1,4 +1,4 @@
-# Map.values
+# Map.prototype.values
 
 the **`values`** method returns a new `Iterator` object that contains the values for each element in the `Map` object in insertion order.
 

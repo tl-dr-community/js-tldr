@@ -1,4 +1,4 @@
-# Set.delete
+# Set.prototype.delete()
 
 the **`delete`** method removes the specified element from a `Set` object by key
 

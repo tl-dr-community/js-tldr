@@ -1,4 +1,4 @@
-# Map.forEach
+# Map.prototype.forEach()
 
 the **`forEach`** method executes a provided function once per each key/value pair in the `Map` object, in insertion order.
 

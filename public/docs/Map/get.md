@@ -1,4 +1,4 @@
-# Map.get
+# Map.prototype.get()
 
 the **`get`** method returns a specified element from a `Map` object.
 

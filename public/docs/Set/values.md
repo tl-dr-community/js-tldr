@@ -1,4 +1,4 @@
-# Set.values
+# Set.prototype.values()
 
 The **`values()`** method returns a new `Iterator` object that contains the values for each element in the `Set` object in insertion order.
 

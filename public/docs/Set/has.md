@@ -1,4 +1,4 @@
-# Set.has
+# Set.prototype.has()
 
 the **`has`** method returns a boolean indicating whether an element with the specified value exists in a `Set` object or not
 

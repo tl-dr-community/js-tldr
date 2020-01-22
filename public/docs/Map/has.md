@@ -1,4 +1,4 @@
-# Map.has
+# Map.prototype.has()
 
 the **`has`** method returns a boolean indicating whether an element with the specified key exists or not.
 

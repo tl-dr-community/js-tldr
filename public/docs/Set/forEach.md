@@ -1,4 +1,4 @@
-# Set.forEach
+# Set.prototype.forEach()
 
 the **`forEach`** method executes a provided function once for each value in the `Set` object, in insertion order.
 

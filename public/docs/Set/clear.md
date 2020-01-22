@@ -1,4 +1,4 @@
-# Set.clear
+# Set.prototype.clear()
 
 the **`clear`** method removes all elements from a Set object.
 

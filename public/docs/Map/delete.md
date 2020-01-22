@@ -1,4 +1,4 @@
-# Map.delete
+# Map.prototype.delete()
 
 the **`delete`** method removes the specified element from a `Map` object by key
 

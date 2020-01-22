@@ -1,4 +1,4 @@
-# Set.set
+# Set.prototype.set()
 
 the **`add`** method appends a new element with a specified value to the end of a `Set` object.
 

@@ -1,4 +1,4 @@
-# Map.clear
+# Map.prototype.clear()
 
 the **`clear`** method removes all elements from a Map object.
 

@@ -1,4 +1,4 @@
-# Set.keys
+# Set.prototype.keys()
 
 The **`keys()`** method is an alias for the **`values()`** method (for similarity with `Map` objects); it behaves exactly the same and returns **`values`** of `Set` elements.
 

@@ -1,4 +1,4 @@
-# Map.entries
+# Map.prototype.entries()
 
 the **`entries`** method returns a new `Iterator` object that contains the `[key, value]` pairs for each element in the `Map` object in insertion order.
 
