@@ -75,7 +75,7 @@
   "bugs": {
     "url": "https://github.com/RusinovAnton/js-tldr/issues"
   },
-  "homepage": "http://js-tldr.info/",
+  "homepage": "https://js-tldr.info/",
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.7.4",
     "@babel/core": "^7.7.5",
