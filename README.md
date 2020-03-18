@@ -4,6 +4,8 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3d337295-5694-4b94-9d1b-baca784bde93/deploy-status)](https://app.netlify.com/sites/js-tldr/deploys)
+
 ## Development scripts
 
 - `npm install` - installs required dependencies
