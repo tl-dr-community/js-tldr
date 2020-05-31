@@ -1,3 +1,4 @@
+import keycodes from 'keycodes';
 import { Option } from 'common-types/options';
 import { useDocsData, useKeyUp, useSearchEngine } from 'hooks';
 import React, {
@@ -7,6 +8,7 @@ import React, {
   useEffect,
   useRef,
   useState,
+  KeyboardEvent,
 } from 'react';
 import { Manager, Popper, Reference } from 'react-popper';
 import classes from './Search.module.scss';
@@ -56,6 +58,12 @@ export const Search: ComponentType<{}> = memo(() => {
     focusInput();
   };
 
+  const handleInputKeyUp = (event: KeyboardEvent<HTMLInputElement>) => {
+    if (event.keyCode !== keycodes('down')) return;
+
+    console.log('down');
+  };
+
   return (
     <div className={classes.container}>
       <Manager>
@@ -67,6 +75,7 @@ export const Search: ComponentType<{}> = memo(() => {
                 wrapperRef={ref}
                 value={searchQuery}
                 onChange={handleChange}
+                onKeyUp={handleInputKeyUp}
               />
             )}
           </Reference>
