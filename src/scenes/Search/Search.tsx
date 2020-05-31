@@ -1,8 +1,10 @@
-import { Option } from 'common-types/options';
+import { Result } from 'common-types/options';
 import { useDocsData, useKeyUp, useSearchEngine } from 'hooks';
+import keycodes from 'keycodes';
 import React, {
   ComponentType,
   FormEvent,
+  KeyboardEvent,
   memo,
   useEffect,
   useRef,
@@ -15,10 +17,10 @@ import { SearchInput } from './SearchInput';
 import { SearchResults } from './SearchResults';
 
 export const Search: ComponentType<{}> = memo(() => {
-  const [options, setOptions] = useState<Option[] | null>(null);
+  const [results, setResults] = useState<any>([]);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const inputRef = useRef<HTMLInputElement>(null);
-
+  const [highlighted, setHighlighted] = useState<number | null>(null);
   const { data } = useDocsData();
   const searchEngine = useSearchEngine(data);
 
@@ -26,24 +28,30 @@ export const Search: ComponentType<{}> = memo(() => {
     inputRef.current?.focus();
   };
 
+  useKeyUp('/', focusInput);
+
   useEffect(() => {
     focusInput();
   }, []);
 
-  useKeyUp('/', focusInput);
+  const resetSearch = () => {
+    setSearchQuery('');
+    setResults([]);
+  };
 
   const doSearch = (query: string): void => {
+    setHighlighted(null);
     setSearchQuery(query);
     if (!query || !searchEngine) {
-      setOptions([]);
+      setResults([]);
       return;
     }
-    const options = searchEngine.search(query) || [];
-    const threshold = 0.65;
-    const results = (options as { item: any; score: number }[]).filter(
-      ({ score }) => score < threshold,
+    const options: Result[] = searchEngine.search(query) || [];
+    const SCORE_THRESHOLD = 0.65;
+    const results: Result[] = options.filter(
+      ({ score }) => score && score < SCORE_THRESHOLD,
     );
-    setOptions(results);
+    setResults(results);
   };
 
   const handleChange = (event: FormEvent<HTMLInputElement>) => {
@@ -54,6 +62,36 @@ export const Search: ComponentType<{}> = memo(() => {
   const handleChipsChange = (value: string): void => {
     doSearch(value);
     focusInput();
+  };
+
+  const handleInputKeyUp = (event: KeyboardEvent<HTMLInputElement>) => {
+    if (event.keyCode === keycodes('down')) {
+      if (!results?.length) return;
+      setHighlighted(0);
+    }
+
+    if (event.keyCode === keycodes('esc')) {
+      resetSearch();
+    }
+  };
+
+  const handleOptionKeyUp = (event: KeyboardEvent<HTMLDivElement>) => {
+    if (highlighted === null || !results?.length) return;
+
+    if (event.keyCode === keycodes('down')) {
+      const newHightlighted = highlighted + 1;
+      if (newHightlighted > results.length - 1) return;
+      setHighlighted(newHightlighted);
+    }
+
+    if (event.keyCode === keycodes('up')) {
+      if (highlighted === 0) {
+        focusInput();
+        setHighlighted(null);
+      } else {
+        setHighlighted(highlighted - 1);
+      }
+    }
   };
 
   return (
@@ -67,6 +105,7 @@ export const Search: ComponentType<{}> = memo(() => {
                 wrapperRef={ref}
                 value={searchQuery}
                 onChange={handleChange}
+                onKeyUp={handleInputKeyUp}
               />
             )}
           </Reference>
@@ -76,7 +115,9 @@ export const Search: ComponentType<{}> = memo(() => {
                 ref={ref}
                 style={style}
                 placement={placement}
-                options={options}
+                results={results}
+                highlighted={highlighted}
+                onKeyUp={handleOptionKeyUp}
               />
             )}
           </Popper>
