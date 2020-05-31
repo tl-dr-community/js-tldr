@@ -40,7 +40,9 @@ export const Search: ComponentType<{}> = memo(() => {
     }
     const options = searchEngine.search(query) || [];
     const threshold = 0.65;
-    const results = options.filter(({ score }) => score < threshold);
+    const results = (options as { item: any; score: number }[]).filter(
+      ({ score }) => score < threshold,
+    );
     setOptions(results);
   };
 
