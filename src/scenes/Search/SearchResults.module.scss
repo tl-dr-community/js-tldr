@@ -20,4 +20,12 @@
   &:visited {
     color: inherit;
   }
+
+  &:focus {
+    opacity: 1 !important;
+  }
+
+  &:focus-visible {
+    box-shadow: $focus-outline;
+  }
 }
