@@ -1,25 +1,22 @@
 import { useMemo } from 'react';
 import Fuse from 'fuse.js';
 
+const options = {
+  caseSensitive: false,
+  shouldSort: true,
+  includeScore: true,
+  keys: [
+    { name: 'searchString', weight: 2 },
+    { name: 'body', weight: 1 },
+    { name: 'name', weight: 0.5 },
+  ],
+};
+
 export const useSearchEngine = data => {
   const searchEngine = useMemo(() => {
     if (!data) return null;
-    return new Fuse(data, {
-      caseSensitive: false,
-      distance: 1000,
-      location: 5,
-      maxPatternLength: 32,
-      shouldSort: true,
-      includeScore: true,
-      threshold: 0.6,
-      tokenize: true,
-      tokenSeparator: /(\.|prototype)/g,
-      keys: [
-        { name: 'searchString', weight: 0.7 },
-        { name: 'body', weight: 0.7 },
-        { name: 'name', weight: 0.3 },
-      ],
-    });
+    const index = Fuse.createIndex(['searchString'], data);
+    return new Fuse(data, options, index);
   }, [data]);
 
   return searchEngine;
