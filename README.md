@@ -6,15 +6,17 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3d337295-5694-4b94-9d1b-baca784bde93/deploy-status)](https://app.netlify.com/sites/js-tldr/deploys)
 
-## Development scripts
+## Development
+
+If you'd like to help us improving the website and docs, first please see our [contribution guide](CONTRIBUTING.md)
+
+### Getting started
+
+This application is scaffolded via [create-react-app](https://github.com/facebook/create-react-app)
+
+Commands to get up and running:
 
 - `npm install` - installs required dependencies
-- `npm run dev` - runs application in development mode
-- `npm run test` - runs unitary and end-to-end tests
-- `npm run test:u` - runs unitary tests only
-- `npm run test:e2e` - runs end-to-end tests only headlessly in an electron browser
-- `npm run cypress:open` - runs cypress interactive mode, allowing to run end-to-end tests individually with a non-headless electron browser
-
-## Contribution guide
-
-If you'd like to help us improving the website and docs, please see our [contribution guide](CONTRIBUTING.md)
+- `npm run build:search-index` - build static json for search index
+- `npm run dev` - run development server
+- Open the http://localhost:3000/
