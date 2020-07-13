@@ -20,3 +20,10 @@ Commands to get up and running:
 - `npm run build:search-index` - build static json for search index
 - `npm run dev` - run development server
 - Open the http://localhost:3000/
+
+
+## Production
+
+The website runs on Netlify. It's being built automatically from the latest changes in the master branch. 
+
+You can see the list of deploys here: https://app.netlify.com/sites/js-tldr/deploys
