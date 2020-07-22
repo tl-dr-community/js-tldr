@@ -54,12 +54,16 @@ export const Search: ComponentType<{}> = memo(() => {
     setResults(results);
   };
 
-  const searchchips=()=>{
-    if(results.length==0)
-        return(<SearchChips onChange={handleChipsChange}/>);
+  const searchchips = () => {
+    if (results.length == 0)
+      return <SearchChips onChange={handleChipsChange} />;
     else
-        return (<div className={classes.hide}><SearchChips onChange={handleChipsChange}/></div>);
-  }
+      return (
+        <div className={classes.hide}>
+          <SearchChips onChange={handleChipsChange} />
+        </div>
+      );
+  };
 
   const handleChange = (event: FormEvent<HTMLInputElement>) => {
     const value = (event?.target as HTMLInputElement)?.value;
@@ -129,9 +133,7 @@ export const Search: ComponentType<{}> = memo(() => {
             )}
           </Popper>
         </div>
-        <div className={classes.row}>
-        {searchchips()}
-        </div>
+        <div className={classes.row}>{searchchips()}</div>
       </Manager>
     </div>
   );
