@@ -243,6 +243,48 @@
           "keys"
         ]
       }
+    },
+    {
+      "name": "Object",
+      "type": "object",
+      "description": "",
+      "path": "docs/Object",
+      "properties": {
+        "prototype": ["constructor"]
+      },
+      "methods": {
+        "static": [
+          "assign",
+          "create",
+          "defineProperties",
+          "defineProperty",
+          "entries",
+          "freeze",
+          "fromEntries",
+          "getOwnPropertyDescriptor",
+          "getOwnPropertyDescriptors",
+          "getOwnPropertyNames",
+          "getOwnPropertySymbols",
+          "getPrototypeOf",
+          "is",
+          "isExtensible",
+          "isFrozen",
+          "isSealed",
+          "keys",
+          "preventExtensions",
+          "seal",
+          "setPrototypeOf",
+          "values"
+        ],
+        "prototype": [
+          "hasOwnProperty",
+          "isPrototypeOf",
+          "propertyIsEnumerable",
+          "toLocaleString",
+          "toString",
+          "valueOf"
+        ]
+      }
     }
   ]
 }
