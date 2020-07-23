@@ -11,6 +11,7 @@ import React, {
   useState,
 } from 'react';
 import { Manager, Popper, Reference } from 'react-popper';
+import cn from 'classnames';
 import classes from './Search.module.scss';
 import { SearchChips } from './SearchChips';
 import { SearchInput } from './SearchInput';
@@ -23,6 +24,7 @@ export const Search: ComponentType<{}> = memo(() => {
   const [highlighted, setHighlighted] = useState<number | null>(null);
   const { data } = useDocsData();
   const searchEngine = useSearchEngine(data);
+  const isSearchChipsHidden = Boolean(results.length || searchQuery);
 
   const focusInput = () => {
     inputRef.current?.focus();
@@ -122,7 +124,9 @@ export const Search: ComponentType<{}> = memo(() => {
             )}
           </Popper>
         </div>
-        <div className={classes.row}>
+        <div
+          className={cn(classes.row, { [classes.hidden]: isSearchChipsHidden })}
+        >
           <SearchChips onChange={handleChipsChange} />
         </div>
       </Manager>
