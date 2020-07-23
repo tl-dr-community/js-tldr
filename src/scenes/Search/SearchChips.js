@@ -3,7 +3,7 @@ import React from 'react';
 import Button from 'components/Button';
 import { ObjectExpression } from 'components/Typography';
 
-const CHIP_VALUES = [
+export const CHIP_VALUES = [
   'Array',
   'Function',
   'Map',

@@ -1,0 +1,248 @@
+{
+  "domains": [
+    {
+      "name": "Array",
+      "type": "object",
+      "description": "",
+      "path": "/docs/en/Array",
+      "methods": {
+        "static": ["from", "isArray", "of"],
+        "prototype": [
+          "concat",
+          "copyWithin",
+          "entries",
+          "every",
+          "fill",
+          "filter",
+          "find",
+          "findIndex",
+          "flat",
+          "flatMap",
+          "forEach",
+          "includes",
+          "indexOf",
+          "join",
+          "keys",
+          "lastIndexOf",
+          "map",
+          "pop",
+          "push",
+          "reduce",
+          "reduceRight",
+          "reverse",
+          "shift",
+          "slice",
+          "some",
+          "sort",
+          "splice",
+          "toLocaleString",
+          "toString",
+          "unshift",
+          "values"
+        ]
+      }
+    },
+    {
+      "name": "Number",
+      "type": "object",
+      "description": "",
+      "path": "/docs/en/Number",
+      "methods": {
+        "static": [
+          "isFinite",
+          "isInteger",
+          "isNaN",
+          "isSafeInteger",
+          "parseFloat",
+          "parseInt"
+        ],
+        "prototype": [
+          "toExponential",
+          "toFixed",
+          "toLocaleString",
+          "toPrecision",
+          "toString",
+          "valueOf"
+        ]
+      }
+    },
+    {
+      "name": "String",
+      "type": "object",
+      "description": "",
+      "path": "/docs/en/String",
+      "methods": {
+        "static": ["fromCharCode", "fromCodePoint", "raw"],
+        "prototype": [
+          "charAt",
+          "charCodeAt",
+          "codePointAt",
+          "concat",
+          "endsWith",
+          "includes",
+          "indexOf",
+          "lastIndexOf",
+          "localeCompare",
+          "match",
+          "matchAll",
+          "normalize",
+          "padEnd",
+          "padStart",
+          "repeat",
+          "replace",
+          "search",
+          "slice",
+          "split",
+          "startsWith",
+          "substr",
+          "substring",
+          "toLocaleLowerCase",
+          "toLocaleUpperCase",
+          "toLowerCase",
+          "toString",
+          "toUpperCase",
+          "trim",
+          "trimEnd",
+          "trimLeft",
+          "trimRight",
+          "trimStart",
+          "valueOf"
+        ]
+      }
+    },
+    {
+      "name": "Function",
+      "type": "object",
+      "description": "",
+      "path": "/docs/en/Function",
+      "properties": {
+        "static": ["length", "name"]
+      },
+      "methods": {
+        "prototype": ["apply", "bind", "call", "toString"]
+      }
+    },
+    {
+      "name": "Math",
+      "type": "object",
+      "description": "",
+      "path": "/docs/en/Math",
+      "properties": {
+        "static": [
+          "E",
+          "LN10",
+          "LN2",
+          "LOG10E",
+          "LOG2E",
+          "PI",
+          "SQRT1_2",
+          "SQRT2"
+        ]
+      },
+      "methods": {
+        "static": [
+          "abs",
+          "acos",
+          "acosh",
+          "asin",
+          "asinh",
+          "atan",
+          "atan2",
+          "atanh",
+          "cbrt",
+          "ceil",
+          "clz32",
+          "cos",
+          "cosh",
+          "exp",
+          "expm1",
+          "floor",
+          "fround",
+          "hypot",
+          "imul",
+          "log",
+          "log1p",
+          "log2",
+          "log10",
+          "max",
+          "min",
+          "pow",
+          "random",
+          "round",
+          "sign",
+          "sin",
+          "sinh",
+          "sqrt",
+          "tan",
+          "tanh",
+          "trunc"
+        ]
+      }
+    },
+    {
+      "name": "RegExp",
+      "type": "object",
+      "description": "",
+      "path": "/docs/en/RegExp",
+      "properties": {
+        "prototype": [
+          "dotAll",
+          "flags",
+          "global",
+          "ignoreCase",
+          "lastIndex",
+          "multiline",
+          "source",
+          "sticky",
+          "unicode"
+        ]
+      },
+      "methods": {
+        "prototype": ["exec", "test", "toString"]
+      }
+    },
+    {
+      "name": "Map",
+      "type": "object",
+      "description": "key-value pairs in insertion order",
+      "path": "/docs/en/Map",
+      "properties": {
+        "prototype": ["size"]
+      },
+      "methods": {
+        "prototype": [
+          "clear",
+          "delete",
+          "entries",
+          "forEach",
+          "get",
+          "has",
+          "keys",
+          "set",
+          "values"
+        ]
+      }
+    },
+    {
+      "name": "Set",
+      "type": "object",
+      "description": "store unique values of any type, whether primitive values or object references",
+      "path": "/docs/en/Set",
+      "properties": {
+        "prototype": ["size"]
+      },
+      "methods": {
+        "prototype": [
+          "add",
+          "clear",
+          "delete",
+          "entries",
+          "forEach",
+          "has",
+          "values",
+          "keys"
+        ]
+      }
+    }
+  ]
+}

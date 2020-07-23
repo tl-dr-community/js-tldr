@@ -2,6 +2,7 @@ import { Input } from 'components/Input';
 import React, { forwardRef, HTMLAttributes, Ref } from 'react';
 import { SearchIcon } from './SearchIcon';
 import classes from './SearchInput.module.scss';
+import { $l } from '../../locales/localization';
 
 type Props = {
   disabled?: boolean;
@@ -20,7 +21,7 @@ export const SearchInput = forwardRef<
     <Input
       ref={ref}
       className={classes.input}
-      placeholder="Look for some tl;dr"
+      placeholder={$l('LOOK_FOR_PLACEHOLDER', props.lang)}
       size="xl"
       aria-label="Search"
       {...props}

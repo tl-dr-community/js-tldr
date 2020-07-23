@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
 import { Dot } from 'components/Dot';
@@ -6,26 +6,59 @@ import { Row, Col } from 'components/Grid';
 import { Bracket, Comment } from 'components/Typography';
 
 import classes from './Header.module.scss';
-import { ABOUT, HOME } from './routes';
+import { ABOUT, HOME, HOME_EN, HOME_UK, HOME_HE } from './routes';
 import { OutboundLink } from 'react-ga';
+import { getMatchParams } from '../common/utils';
+import { LANGUAGES } from '../common/constants';
 
 export const Header = props => {
   const history = useHistory();
   const handleLogoClick = () => history.push(HOME);
+  const [language, setLanguage] = useState(
+    getMatchParams(window.location.pathname),
+  );
+
   return (
     <Row component="header" alignCenter className={classes.header}>
       <Col>
-        <h1
-          style={{ cursor: 'pointer' }}
-          onClick={handleLogoClick}
-          role="link"
-        >
+        <h1 style={{ cursor: 'pointer' }} onClick={handleLogoClick} role="link">
           <Bracket>JS</Bracket> tl;dr
         </h1>
       </Col>
       <Col>
-        <Link to={ABOUT} data-cy="Header_aboutLink">About</Link>&nbsp;
+        <Link to={ABOUT} data-cy="Header_aboutLink">
+          About
+        </Link>
+        &nbsp;
         <Dot />
+      </Col>
+      <Col>
+        <Link
+          style={{ color: language === LANGUAGES.EN ? '#eedb68' : '' }}
+          display="none"
+          to={HOME_EN}
+          data-cy="Header_En_Link"
+          onClick={() => setLanguage('uk')}
+        >
+          En
+        </Link>
+        &nbsp;
+        <Link
+          style={{ color: language === LANGUAGES.UK ? '#eedb68' : '' }}
+          to={HOME_UK}
+          data-cy="Header_Uk_Link"
+        >
+          Uk
+        </Link>
+        &nbsp;
+        <Link
+          style={{ color: language === LANGUAGES.HE ? '#eedb68' : '' }}
+          to={HOME_HE}
+          data-cy="Header_He_Link"
+        >
+          He
+        </Link>
+        &nbsp;
       </Col>
       <OutboundLink
         className={classes.githubLink}

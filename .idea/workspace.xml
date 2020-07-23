@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="304f110c-1b99-4357-8f76-07ec22955d6c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/en/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/concat.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/copyWithin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/entries.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/every.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/fill.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/filter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/find.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/findIndex.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/flat.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/flatMap.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/forEach.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/from.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/includes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/indexOf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/isArray.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/join.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/keys.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/lastIndexOf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/map.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/of.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/pop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/push.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/reduce.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/reduceRight.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/reverse.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/shift.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/slice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/some.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/sort.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/splice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/toLocaleString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/toString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/unshift.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Array/values.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Function/apply.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Function/bind.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Function/call.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Function/length.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Function/name.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Function/toString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Map/clear.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Map/delete.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Map/entries.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Map/forEach.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Map/get.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Map/has.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Map/keys.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Map/set.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Map/size.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Map/values.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/E.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/LN10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/LN2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/LOG10E.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/LOG2E.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/PI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/SQRT1_2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/SQRT2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/abs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/acos.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/acosh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/asin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/asinh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/atan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/atan2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/atanh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/cbrt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/ceil.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/clz32.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/cos.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/cosh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/exp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/expm1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/floor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/fround.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/hypot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/imul.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/log.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/log10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/log1p.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/log2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/max.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/min.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/pow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/random.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/round.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/sign.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/sin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/sinh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/sqrt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/tan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/tanh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Math/trunc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Number/isFinite.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Number/isInteger.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Number/isNaN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Number/isSafeInteger.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Number/parseFloat.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Number/parseInt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Number/toExponential.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Number/toFixed.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Number/toLocaleString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Number/toPrecision.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Number/toString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Number/valueOf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/RegExp/dotAll.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/RegExp/exec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/RegExp/flags.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/RegExp/global.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/RegExp/ignoreCase.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/RegExp/lastIndex.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/RegExp/multiline.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/RegExp/source.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/RegExp/sticky.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/RegExp/test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/RegExp/toString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/RegExp/unicode.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Set/add.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Set/clear.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Set/delete.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Set/entries.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Set/forEach.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Set/has.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Set/keys.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Set/size.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/Set/values.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/charAt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/charCodeAt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/codePointAt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/concat.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/endsWith.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/fromCharCode.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/fromCodePoint.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/includes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/indexOf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/lastIndexOf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/localeCompare.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/match.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/matchAll.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/normalize.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/padEnd.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/padStart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/raw.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/repeat.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/replace.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/search.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/slice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/split.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/startsWith.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/substr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/substring.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/toLocaleLowerCase.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/toLocaleUpperCase.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/toLowerCase.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/toString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/toUpperCase.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/trim.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/trimEnd.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/trimLeft.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/trimRight.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/trimStart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/String/valueOf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/he/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/concat.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/copyWithin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/entries.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/every.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/fill.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/filter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/find.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/findIndex.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/flat.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/flatMap.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/forEach.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/from.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/includes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/indexOf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/isArray.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/join.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/keys.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/lastIndexOf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/map.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/of.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/pop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/push.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/reduce.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/reduceRight.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/reverse.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/shift.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/slice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/some.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/sort.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/splice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/toLocaleString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/toString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/unshift.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Array/values.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Function/apply.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Function/bind.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Function/call.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Function/length.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Function/name.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Function/toString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Map/clear.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Map/delete.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Map/entries.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Map/forEach.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Map/get.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Map/has.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Map/keys.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Map/set.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Map/size.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Map/values.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/E.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/LN10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/LN2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/LOG10E.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/LOG2E.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/PI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/SQRT1_2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/SQRT2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/abs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/acos.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/acosh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/asin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/asinh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/atan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/atan2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/atanh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/cbrt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/ceil.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/clz32.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/cos.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/cosh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/exp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/expm1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/floor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/fround.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/hypot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/imul.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/log.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/log10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/log1p.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/log2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/max.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/min.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/pow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/random.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/round.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/sign.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/sin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/sinh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/sqrt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/tan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/tanh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Math/trunc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Number/isFinite.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Number/isInteger.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Number/isNaN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Number/isSafeInteger.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Number/parseFloat.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Number/parseInt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Number/toExponential.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Number/toFixed.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Number/toLocaleString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Number/toPrecision.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Number/toString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Number/valueOf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/RegExp/dotAll.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/RegExp/exec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/RegExp/flags.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/RegExp/global.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/RegExp/ignoreCase.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/RegExp/lastIndex.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/RegExp/multiline.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/RegExp/source.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/RegExp/sticky.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/RegExp/test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/RegExp/toString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/RegExp/unicode.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Set/add.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Set/clear.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Set/delete.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Set/entries.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Set/forEach.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Set/has.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Set/keys.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Set/size.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/Set/values.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/charAt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/charCodeAt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/codePointAt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/concat.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/endsWith.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/fromCharCode.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/fromCodePoint.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/includes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/indexOf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/lastIndexOf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/localeCompare.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/match.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/matchAll.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/normalize.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/padEnd.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/padStart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/raw.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/repeat.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/replace.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/search.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/slice.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/split.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/startsWith.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/substr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/substring.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/toLocaleLowerCase.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/toLocaleUpperCase.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/toLowerCase.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/toString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/toUpperCase.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/trim.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/trimEnd.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/trimLeft.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/trimRight.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/trimStart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/docs/uk/String/valueOf.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/en/placeholders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/he/placeholders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/localization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/uk/placeholders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/concat.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/concat.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/copyWithin.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/copyWithin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/entries.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/entries.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/every.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/every.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/fill.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/fill.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/filter.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/filter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/find.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/find.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/findIndex.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/findIndex.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/flat.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/flat.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/flatMap.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/flatMap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/forEach.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/forEach.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/from.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/from.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/includes.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/includes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/indexOf.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/indexOf.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/isArray.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/isArray.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/join.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/join.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/keys.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/keys.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/lastIndexOf.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/lastIndexOf.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/map.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/map.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/of.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/of.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/pop.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/pop.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/push.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/push.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/reduce.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/reduce.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/reduceRight.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/reduceRight.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/reverse.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/reverse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/shift.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/shift.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/slice.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/slice.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/some.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/some.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/sort.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/splice.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/splice.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/toLocaleString.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/toLocaleString.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/toString.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/toString.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/unshift.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/unshift.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Array/values.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Array/values.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Function/apply.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Function/apply.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Function/bind.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Function/bind.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Function/call.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Function/call.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Function/length.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Function/length.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Function/name.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Function/name.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Function/toString.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Function/toString.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Map/clear.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Map/clear.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Map/delete.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Map/delete.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Map/entries.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Map/entries.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Map/forEach.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Map/forEach.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Map/get.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Map/get.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Map/has.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Map/has.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Map/keys.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Map/keys.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Map/set.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Map/set.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Map/size.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Map/size.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Map/values.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Map/values.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/E.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/E.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/LN10.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/LN10.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/LN2.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/LN2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/LOG10E.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/LOG10E.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/LOG2E.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/LOG2E.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/PI.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/PI.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/SQRT1_2.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/SQRT1_2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/SQRT2.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/SQRT2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/abs.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/abs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/acos.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/acos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/acosh.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/acosh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/asin.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/asin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/asinh.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/asinh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/atan.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/atan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/atan2.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/atan2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/atanh.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/atanh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/cbrt.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/cbrt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/ceil.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/ceil.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/clz32.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/clz32.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/cos.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/cos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/cosh.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/cosh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/exp.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/exp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/expm1.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/expm1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/floor.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/floor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/fround.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/fround.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/hypot.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/hypot.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/imul.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/imul.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/log.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/log10.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/log10.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/log1p.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/log1p.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/log2.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/log2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/max.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/max.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/min.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/min.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/pow.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/pow.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/random.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/random.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/round.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/round.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/sign.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/sign.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/sin.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/sin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/sinh.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/sinh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/sqrt.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/sqrt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/tan.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/tan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/tanh.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/tanh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Math/trunc.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Math/trunc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Number/isFinite.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Number/isFinite.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Number/isInteger.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Number/isInteger.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Number/isNaN.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Number/isNaN.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Number/isSafeInteger.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Number/isSafeInteger.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Number/parseFloat.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Number/parseFloat.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Number/parseInt.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Number/parseInt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Number/toExponential.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Number/toExponential.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Number/toFixed.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Number/toFixed.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Number/toLocaleString.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Number/toLocaleString.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Number/toPrecision.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Number/toPrecision.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Number/toString.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Number/toString.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Number/valueOf.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Number/valueOf.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/RegExp/dotAll.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/RegExp/dotAll.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/RegExp/exec.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/RegExp/exec.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/RegExp/flags.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/RegExp/flags.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/RegExp/global.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/RegExp/global.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/RegExp/ignoreCase.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/RegExp/ignoreCase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/RegExp/lastIndex.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/RegExp/lastIndex.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/RegExp/multiline.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/RegExp/multiline.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/RegExp/source.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/RegExp/source.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/RegExp/sticky.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/RegExp/sticky.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/RegExp/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/RegExp/test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/RegExp/toString.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/RegExp/toString.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/RegExp/unicode.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/RegExp/unicode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Set/add.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Set/add.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Set/clear.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Set/clear.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Set/delete.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Set/delete.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Set/entries.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Set/entries.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Set/forEach.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Set/forEach.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Set/has.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Set/has.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Set/keys.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Set/keys.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Set/size.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Set/size.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/Set/values.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/Set/values.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/charAt.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/charAt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/charCodeAt.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/charCodeAt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/codePointAt.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/codePointAt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/concat.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/concat.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/endsWith.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/endsWith.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/fromCharCode.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/fromCharCode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/fromCodePoint.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/fromCodePoint.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/includes.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/includes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/indexOf.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/indexOf.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/lastIndexOf.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/lastIndexOf.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/localeCompare.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/localeCompare.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/match.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/match.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/matchAll.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/matchAll.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/normalize.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/normalize.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/padEnd.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/padEnd.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/padStart.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/padStart.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/raw.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/raw.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/repeat.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/repeat.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/replace.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/replace.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/search.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/search.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/slice.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/slice.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/split.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/split.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/startsWith.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/startsWith.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/substr.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/substr.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/substring.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/substring.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/toLocaleLowerCase.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/toLocaleLowerCase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/toLocaleUpperCase.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/toLocaleUpperCase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/toLowerCase.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/toLowerCase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/toString.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/toString.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/toUpperCase.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/toUpperCase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/trim.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/trim.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/trimEnd.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/trimEnd.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/trimLeft.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/trimLeft.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/trimRight.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/trimRight.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/trimStart.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/trimStart.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/String/valueOf.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/en/String/valueOf.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/uk/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/loadDocsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/loadDocsData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/Documentation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/Documentation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/Search/Search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/Search/SearchChips.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/Search/SearchChips.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/Search/SearchInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/Search/SearchInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/routes.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Documentation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/Documentation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constants.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/constants.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchInput.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/Search/SearchInput.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scenes/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
+              <folding>
+                <element signature="e#44#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loadDocsData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/loadDocsData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/App.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="react-router-dom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-router-dom/cjs/react-router-dom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-197">
+              <caret line="212" column="4" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Search.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/Search/Search.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>search-index</find>
+      <find>RegE</find>
+      <find>:domain/:method</find>
+      <find>DOCS</find>
+      <find>docs/</find>
+      <find>he//</find>
+      <find>docs/en</find>
+      <find>uk</find>
+      <find>docs</find>
+      <find>fetch</find>
+      <find>about</find>
+      <find>About</find>
+      <find>Ukraine</find>
+      <find>look for</find>
+      <find>getHomeMatchParams</find>
+      <find>Search</find>
+      <find>look fo</find>
+      <find>SearchInput</find>
+      <find>style</find>
+      <find>debugger</find>
+      <find>Header</find>
+      <find>handleLogoClick</find>
+      <find>language =</find>
+      <find>window.loca</find>
+      <find>ABOUT</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>docs/en/</replace>
+      <replace>docs/he/</replace>
+      <replace>he/</replace>
+      <replace>docs/uk/</replace>
+      <replace>docs/he</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/scenes/Search</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/docs/String/charAt.md" />
+        <option value="$PROJECT_DIR$/src/scenes/Search/SearchChips.js" />
+        <option value="$PROJECT_DIR$/src/constants/languages.js" />
+        <option value="$PROJECT_DIR$/public/docs/Number/isFinite.md" />
+        <option value="$PROJECT_DIR$/public/docs/uk/index.json" />
+        <option value="$PROJECT_DIR$/public/docs/uk/search-index.json" />
+        <option value="$PROJECT_DIR$/public/docs/search-index.json" />
+        <option value="$PROJECT_DIR$/public/docs/index.json" />
+        <option value="$PROJECT_DIR$/public/docs/he/index.json" />
+        <option value="$PROJECT_DIR$/public/docs/he/search-index.json" />
+        <option value="$PROJECT_DIR$/src/scenes/routes.js" />
+        <option value="$PROJECT_DIR$/public/docs/uk/Number/isFinite.md" />
+        <option value="$PROJECT_DIR$/src/common/locales.js" />
+        <option value="$PROJECT_DIR$/src/locales/en/placeholders.js" />
+        <option value="$PROJECT_DIR$/src/locales/localization.js" />
+        <option value="$PROJECT_DIR$/src/locales/uk/placeholders.js" />
+        <option value="$PROJECT_DIR$/src/locales/he/placeholders.js" />
+        <option value="$PROJECT_DIR$/src/scenes/Search/SearchInput.tsx" />
+        <option value="$PROJECT_DIR$/src/scenes/Documentation.js" />
+        <option value="$PROJECT_DIR$/src/scenes/App.tsx" />
+        <option value="$PROJECT_DIR$/src/scenes/Main.js" />
+        <option value="$PROJECT_DIR$/src/common/utils.js" />
+        <option value="$PROJECT_DIR$/src/data/loadDocsData.js" />
+        <option value="$PROJECT_DIR$/src/scenes/Search/Search.tsx" />
+        <option value="$PROJECT_DIR$/src/scenes/Header.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="js-tldr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-tldr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-tldr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-tldr" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-tldr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-tldr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-tldr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-tldr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-tldr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-tldr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common-types" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-tldr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-tldr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-tldr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-tldr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-tldr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-tldr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="locales" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-tldr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-tldr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="locales" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-tldr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-tldr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="locales" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-tldr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-tldr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="locales" type="462c0819:PsiDirectoryNode" />
+              <item name="uk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-tldr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-tldr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scenes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-tldr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-tldr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="types" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/common" />
+      <recent name="$PROJECT_DIR$/public/docs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/locales/uk" />
+      <recent name="$PROJECT_DIR$/src/locales/he" />
+      <recent name="$PROJECT_DIR$/public/docs/he" />
+      <recent name="$PROJECT_DIR$/public/docs/en" />
+      <recent name="$PROJECT_DIR$/public/docs/uk" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.build:search-index">
+    <configuration name="build:search-index" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:search-index" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="npm.build:search-index" />
+      <item itemvalue="npm.dev" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build:search-index" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <option name="sshConnectionType" value="PRIVATE_KEY" />
+    <option name="sshPrivateKeyPath" value="$USER_HOME$/.ssh/id_rsa" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="304f110c-1b99-4357-8f76-07ec22955d6c" name="Default" comment="" />
+      <created>1595519193280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595519193280</updated>
+      <workItem from="1595519194780" duration="2756000" />
+      <workItem from="1595522210357" duration="4839000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7595000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="DB Browser" order="2" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" sideWeight="0.5037175" side_tool="true" weight="0.1627907" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33167082" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32917705" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49628252" visible="true" weight="0.25440452" />
+      <window_info id="Project Explorer" order="2" />
+      <window_info id="Job Explorer" order="2" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Console" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32917705" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Console" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info id="npm" order="0" sideWeight="0.5018587" side_tool="true" weight="0.24947146" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.32917705" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" order="2" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="3" />
+      <window_info id="DB Browser" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Project Explorer" order="2" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info id="Job Explorer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32917705" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49814126" visible="true" weight="0.24947146" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/CloseButton/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CloseButton/CloseButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/fetchJson.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/normalizeDocsIndex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/populateDocsIndexWithFileData.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hooks/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hooks/use-key-up.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hooks/use-search-engine.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Search/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-app-env.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="130" column="27" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storage.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variables.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Feedback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/String/charAt.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/uk/Array/of.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Search/SearchChips.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common-types/options.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/Number/isFinite.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/uk/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="242" column="16" selection-start-line="242" selection-start-column="16" selection-end-line="242" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/uk/search-index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6660">
+          <caret line="444" column="26" selection-start-line="444" selection-start-column="26" selection-end-line="444" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/search-index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5041">
+          <caret line="1132" column="22" selection-start-line="1132" selection-start-column="22" selection-end-line="1132" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/en/Map/get.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/he/Map/get.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/en/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/en/search-index.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/he/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3435">
+          <caret line="229" column="25" selection-start-line="229" selection-start-column="25" selection-end-line="229" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/he/search-index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="167" column="16" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/locales.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/docs/uk/Number/isFinite.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locales/uk/placeholders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locales/he/placeholders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="55" lean-forward="true" selection-start-column="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locales/localization.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locales/en/placeholders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-router-dom/cjs/react-router-dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="212" column="4" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Documentation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#44#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Search/Search.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Search/SearchInput.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/loadDocsData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
