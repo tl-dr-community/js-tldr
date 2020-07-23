@@ -16,6 +16,7 @@ import classes from './Search.module.scss';
 import { SearchChips } from './SearchChips';
 import { SearchInput } from './SearchInput';
 import { SearchResults } from './SearchResults';
+import { getHomeMatchParams } from '../../common/utils';
 
 export const Search: ComponentType<{}> = memo(() => {
   const [results, setResults] = useState<any>([]);
@@ -24,6 +25,7 @@ export const Search: ComponentType<{}> = memo(() => {
   const [highlighted, setHighlighted] = useState<number | null>(null);
   const { data } = useDocsData();
   const searchEngine = useSearchEngine(data);
+  const { language } = getHomeMatchParams(window.location.pathname);
   const isSearchChipsHidden = Boolean(results.length || searchQuery);
 
   const focusInput = () => {
@@ -108,6 +110,7 @@ export const Search: ComponentType<{}> = memo(() => {
                 value={searchQuery}
                 onChange={handleChange}
                 onKeyUp={handleInputKeyUp}
+                lang={language}
               />
             )}
           </Reference>
