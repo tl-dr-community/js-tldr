@@ -123,3 +123,15 @@ In the syntax and usage examples code body:
 - use the stdout comment `// ->` to show results
 - try to avoid using `console.log`, just use stdout comment and the end of method call or property expression
 - use only modern ES6 syntax, eg. use `const`/`let` instead of `var`
+
+## Adding new sheet
+
+Documentation docs sheets - markdown files that are located at `/public/docs/<Domain Folder>/methodName.md`.
+To add new documentation sheet you have to follow these steps:
+
+- if there is no folder for your domain - create it at `/public/docs/`
+- add a markdown sheet to the domain folder with the name of the method
+- add the entry for the domain/method to the `/public/docs/index.json`. See [Shape of index.json](#shape-of-index-json) or file itself for the example
+- run the `npm run build:search-index` command to rebuild the index and include the new file
+- go to http://localhost:3000/<domain>/<methodname>
+- write a documentation following the [Documentation guideline](#Documentation-guideline)
