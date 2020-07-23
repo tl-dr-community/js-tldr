@@ -23,6 +23,15 @@
 
   &:focus {
     opacity: 1 !important;
+    color: $object;
+  }
+
+  &:active {
+    color: $object;
+  }
+
+  &:hover {
+    color: $object;
   }
 
   &:focus-visible {
