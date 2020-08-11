@@ -4,12 +4,19 @@ import urlJoin from 'url-join';
 import Markdown from 'components/Markdown';
 import { BoxOverlay } from 'components/BoxOverlay/BoxOverlay';
 import { P } from 'components/Typography';
-
+import { matchPath, useLocation } from 'react-router-dom';
 import { Feedback } from './Feedback';
+import { DOCS_DOMAIN, DOCS_METHOD, DOCS_DEFAULT_ROUTE } from './routes';
 
 const DOCFILE_EXTENSION = 'md';
-export const Documentation = ({ match: { params } }) => {
-  const { domain, method } = params;
+export const Documentation = () => {
+  const location = useLocation();
+  const matchedPath = matchPath(
+    DOCS_DEFAULT_ROUTE + DOCS_DOMAIN + DOCS_METHOD,
+    location.pathname,
+  );
+  const { domain, method } = matchedPath.params;
+
   const [isLoading, setLoading] = useState(false);
   const [md, setMd] = useState(null);
   useEffect(() => {
