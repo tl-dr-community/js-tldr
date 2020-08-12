@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import { Dot } from 'components/Dot';
 import { Row, Col } from 'components/Grid';
@@ -10,15 +10,13 @@ import { ABOUT, HOME } from './routes';
 import { OutboundLink } from 'react-ga';
 
 export const Header = props => {
-  const navigate = useNavigate();
-  const handleLogoClick = () => {
-    navigate(HOME);
-  };
   return (
     <Row component="header" alignCenter className={classes.header}>
       <Col>
-        <h1 style={{ cursor: 'pointer' }} onClick={handleLogoClick} role="link">
-          <Bracket>JS</Bracket> tl;dr
+        <h1>
+          <Link to={HOME} data-cy="Header_home">
+            <Bracket>JS</Bracket> tl;dr
+          </Link>
         </h1>
       </Col>
       <Col>
