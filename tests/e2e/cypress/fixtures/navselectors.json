@@ -9,13 +9,14 @@
     "bo-closebutton": "[data-cy=\"BoxOverlay_closeButton\"]",
     "header-about": "[data-cy=\"Header_aboutLink\"]",
     "header-github": "[data-cy=\"Header_githubLink\"]",
+    "header-home": "[data-cy=\"Header_home\"]",
     "main-searchinput": "[data-cy=\"SearchInput_input\"]",
     "privacypolicy-ga": "[data-cy=\"PrivacyPolicy_gaLink\"]",
     "privacypolicy-email": "[data-cy=\"PrivacyPolicy_emailLink\"]",
     "privacypolicy-twitter": "[data-cy=\"PrivacyPolicy_twitterLink\"]"
   },
   "dynamic": {
-    "main-docs":"[data-cy=\"SearchChips_valueButton\"]",
+    "main-docs": "[data-cy=\"SearchChips_valueButton\"]",
     "docs-link": "[data-cy=\"SearchOption_valueLink\"]",
     "about-patron": "[data-cy=\"Patron_valueLink\"]"
   }
