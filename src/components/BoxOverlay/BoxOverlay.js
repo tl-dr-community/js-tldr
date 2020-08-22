@@ -1,7 +1,7 @@
 import React from 'react';
 import cn from 'classnames';
 import { useKey } from 'react-use';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import { CloseButton } from 'components/CloseButton';
 import classes from './BoxOverlay.module.scss';
@@ -12,9 +12,9 @@ export const BoxOverlay = ({
   children,
   ...props
 }) => {
-  const history = useHistory();
+  const navigate = useNavigate();
   const BoxOverlayComponent = component;
-  const close = () => history.push('/');
+  const close = () => navigate('/');
   useKey('Escape', close);
 
   return (
