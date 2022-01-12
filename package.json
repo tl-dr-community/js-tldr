@@ -29,7 +29,7 @@
     "localforage": "^1.7.3",
     "localforage-driver-session-storage": "^1.0.4",
     "lodash": "^4.17.15",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
     "prettier": "^1.19.1",
